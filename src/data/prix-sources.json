@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "dateReleve": "2026-11-16",
   "materiaux": {
     "plaque-standard-250": {
@@ -85,10 +85,17 @@
       "sources": []
     },
     "fourrure-f530": {
-      "prix": 3.2,
-      "statut": "estime",
-      "note": "Prix vu dans une recherche Brico Dépôt, fiche produit actuelle introuvable : non vérifié.",
-      "sources": []
+      "prix": 2.59,
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3334160160593/fourrure-profilee-acier-galvanisee-45-mm-3m",
+          "prix": 2.59,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "suspente": {
       "prix": 0.19,
@@ -169,9 +176,10 @@
       ]
     },
     "vis-35": {
-      "prix": 24.9,
+      "prix": 21.8,
       "statut": "estime",
-      "sources": []
+      "sources": [],
+      "note": "Estimation : 2 boîtes de 500 vis TTPC 35 mm (même vis que la cloison alvéolaire), aucune boîte de 1000 équivalente trouvée."
     },
     "bande-joint": {
       "prix": 6.99,
@@ -219,9 +227,27 @@
       ]
     },
     "bande-resiliente": {
-      "prix": 18,
-      "statut": "estime",
-      "sources": []
+      "prix": 7.5,
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3663602887225/bande-resiliente-en-mousse-30-m-x-50-mm",
+          "prix": 7.5,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "note": "Écart de -58 % avec l’ancienne valeur (18 €) : produit et unité revérifiés, prix de la fiche conservé.",
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt",
+          "prix": 8.9,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/p/3530782936213/bande-resiliente-multifonction-noir-30m-x-50mm",
+          "date": "2026-11-16"
+        }
+      ]
     },
     "carrelage-m2": {
       "prix": 16.09,
@@ -319,9 +345,17 @@
       "sources": []
     },
     "peinture-murs-5l": {
-      "prix": 16.9,
-      "statut": "estime",
-      "sources": []
+      "prix": 21.9,
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/5059340264509/peinture-blanche-interieure-murs-mat-5-l",
+          "prix": 21.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "peinture-murs-10l": {
       "prix": 24.5,
@@ -342,14 +376,32 @@
       "sources": []
     },
     "peinture-plafond-2_5l": {
-      "prix": 9.9,
-      "statut": "estime",
-      "sources": []
+      "prix": 35.9,
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/5059340264431/peinture-blanche-interieure-plafonds-mat-2-5-l",
+          "prix": 35.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "note": "Écart de +263 % avec l’ancienne valeur (9,9 €) : produit et unité revérifiés, prix de la fiche conservé."
     },
     "peinture-plafond-5l": {
-      "prix": 16.9,
-      "statut": "estime",
-      "sources": []
+      "prix": 38.5,
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3174269078579/peinture-murs-et-plafonds-interieur-mat-5-l-blanc",
+          "prix": 38.5,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "note": "Peinture murs et plafonds mat 5 L (moins chère que la peinture « plafonds » seule, 54,90 €). Écart de +128 % avec l’ancienne valeur (16,9 €) : produit et unité revérifiés, prix de la fiche conservé."
     },
     "peinture-plafond-10l": {
       "prix": 24.5,
@@ -371,14 +423,32 @@
       "sources": []
     },
     "sous-couche-2_5l": {
-      "prix": 13.9,
-      "statut": "estime",
-      "sources": []
+      "prix": 27.9,
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/5059340834306/sous-couche-universelle-2-5-l",
+          "prix": 27.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "note": "Écart de +101 % avec l’ancienne valeur (13,9 €) : produit et unité revérifiés, prix de la fiche conservé."
     },
     "sous-couche-5l": {
-      "prix": 22.9,
-      "statut": "estime",
-      "sources": []
+      "prix": 31.9,
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/5059340833873/sous-couche-murs-5-l",
+          "prix": 31.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "note": "Écart de +39 % avec l’ancienne valeur (22,9 €) : produit et unité revérifiés, prix de la fiche conservé."
     },
     "sous-couche-10l": {
       "prix": 38.5,
@@ -402,9 +472,17 @@
       "sources": []
     },
     "bache": {
-      "prix": 6.3,
-      "statut": "estime",
-      "sources": []
+      "prix": 5.79,
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/5059340336060/bache-de-protection-sols-3-x-4-m-12-m",
+          "prix": 5.79,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "papier-peint": {
       "prix": 19.9,
@@ -438,10 +516,27 @@
       ]
     },
     "sable": {
-      "prix": 85,
-      "statut": "estime",
-      "note": "Prix d’un m³ en big bag, non relevé.",
-      "sources": []
+      "prix": 74.9,
+      "statut": "releve",
+      "note": "Big bag de sable à maçonner d’environ 1 m³.",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3760143542221/sable-a-maconner-en-big-bag-de-1-m3",
+          "prix": 74.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "comparaison": [
+        {
+          "enseigne": "Castorama",
+          "prix": 64.9,
+          "lot": 1,
+          "url": "https://www.castorama.fr/vrac-de-sable-a-batir-granulo-0-4-r-pour-travaux-de-maconnerie-1m-/3663602114055_CAFR.prd",
+          "date": "2026-11-16"
+        }
+      ]
     },
     "gravillons": {
       "prix": 81.9,
@@ -507,28 +602,40 @@
     },
     "parpaing-10": {
       "prix": 0.89,
-      "statut": "estime",
-      "note": "Prix vu dans une recherche Brico Dépôt, fiche produit actuelle introuvable : non vérifié.",
-      "sources": []
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3666156000089/bloc-agglo-creux-100-x-200-x-500",
+          "prix": 0.89,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "parpaing-15": {
       "prix": 0.89,
-      "statut": "estime",
-      "note": "Prix vu dans une recherche Brico Dépôt, fiche produit actuelle introuvable : non vérifié.",
-      "sources": []
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3666156000041/bloc-agglo-creux-150-x-200-x-500",
+          "prix": 0.89,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "parpaing-20": {
       "prix": 0.89,
       "statut": "releve",
-      "note": "Parpaing creux NF 20 × 20 × 50 cm (prix vu sur la fiche ; page non lisible par le script). Les parpaings de 10 et 15 cm restent estimés au même prix.",
       "sources": [
         {
           "enseigne": "Brico Dépôt",
-          "url": "https://www.bricodepot.fr/p/3760229750045/parpaing-creux-nf-ep-20-cm-l-20-cm-l-50-cm-3",
+          "url": "https://www.bricodepot.fr/p/3666156000072/bloc-agglo-creux-200-x-200-x-500-nf",
           "prix": 0.89,
           "lot": 1,
-          "date": "2026-11-16",
-          "manuel": true
+          "date": "2026-11-16"
         }
       ]
     },
@@ -616,9 +723,31 @@
     "colle-carreaux-platre": {
       "prix": 18.5,
       "statut": "releve",
-      "date": "2026-11",
-      "note": "Prix relevé par vous en novembre 2026 ; fiche produit non retrouvée.",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3334160419844/colle-pour-montage-de-carreaux-de-platre-25-kg",
+          "prix": 18.5,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt",
+          "prix": 20.9,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/p/3496252002294/colle-placol-sac-25-kg-prise-rapide-2-heures-pour-assemblage-carreaux-cloison",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt",
+          "prix": 29.9,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/p/3334160003029/colle-pour-carreaux-de-platre-sac-de-25-kg",
+          "date": "2026-11-16"
+        }
+      ]
     },
     "platre-a-enduire": {
       "prix": 18.9,
@@ -634,9 +763,18 @@
       ]
     },
     "bande-resiliente-m": {
-      "prix": 0.8,
-      "statut": "estime",
-      "sources": []
+      "prix": 0.25,
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3663602887225/bande-resiliente-en-mousse-30-m-x-50-mm",
+          "prix": 7.5,
+          "lot": 30,
+          "date": "2026-11-16"
+        }
+      ],
+      "note": "Rouleau de 30 m à 7,50 € = 0,25 € le mètre. Écart de -69 % avec l’ancienne valeur (0,8 €) : produit et unité revérifiés, prix de la fiche conservé."
     },
     "panneau-alveolaire-50": {
       "prix": 35.7,
@@ -755,44 +893,80 @@
       ]
     },
     "laine-verre-100": {
-      "prix": 30.75,
+      "prix": 41.64,
       "statut": "releve",
       "sources": [
         {
           "enseigne": "Brico Dépôt",
-          "url": "https://www.bricodepot.fr/p/3596265336420/laine-de-verre-en-rouleau-kraft-pour-murs-32-r-3-15-ep-100-mm-2-70-x-1-20-m",
+          "url": "https://www.bricodepot.fr/p/4017916554486/rouleau-d-isolation-serenity-mur-32-rk-ep-101mm",
+          "prix": 41.64,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "note": "Gamme Serenity 32 (rouleau 101 mm, R 3,15), la même que pour 120 et 140 mm. Écart de +35 % avec l’ancienne valeur (30,75 €) : produit et unité revérifiés, prix de la fiche conservé.",
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt (Isover Mur 32, ancienne gamme)",
           "prix": 30.75,
           "lot": 1,
+          "url": "https://www.bricodepot.fr/p/3596265336420/laine-de-verre-en-rouleau-kraft-pour-murs-32-r-3-15-ep-100-mm-2-70-x-1-20-m",
           "date": "2026-11-16"
         }
       ]
     },
     "laine-verre-120": {
-      "prix": 48.79,
+      "prix": 51.35,
       "statut": "releve",
       "sources": [
         {
           "enseigne": "Brico Dépôt",
-          "url": "https://www.bricodepot.fr/p/3596265231251/laine-de-verre-120mm-mur-32-r-3-75-2-7m-x-1-2m-rouleau-kraft",
+          "url": "https://www.bricodepot.fr/p/4017916554509/rouleau-d-isolation-serenity-mur-32-rk-ep-120mm",
+          "prix": 51.35,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "note": "Gamme Serenity 32 (rouleau 120 mm).",
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt (Isover Mur 32)",
           "prix": 48.79,
           "lot": 1,
+          "url": "https://www.bricodepot.fr/p/3596265231251/laine-de-verre-120mm-mur-32-r-3-75-2-7m-x-1-2m-rouleau-kraft",
           "date": "2026-11-16"
         }
       ]
     },
     "laine-verre-140": {
-      "prix": 63.1,
+      "prix": 52.8,
       "statut": "releve",
       "sources": [
         {
           "enseigne": "Brico Dépôt",
-          "url": "https://www.bricodepot.fr/p/3596265239004/laine-de-verre-140-mm-mur-32-r-4-35-2-7m-x-1-2m-rouleau-kraft-isover",
-          "prix": 63.1,
+          "url": "https://www.bricodepot.fr/p/4017916554523/panneau-roule-laine-de-verre-serenity-32-ep-140-mm",
+          "prix": 52.8,
           "lot": 1,
           "date": "2026-11-16"
         }
       ],
-      "note": "Rouleau Isover 140 mm, R 4,35 (4,4 dans l’appli). Écart de +47 % avec l’ancienne valeur (43 €) : produit et unité revérifiés, prix de la fiche conservé."
+      "note": "Gamme Serenity 32 (rouleau 140 mm).",
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt (Isover Mur 32)",
+          "prix": 63.1,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/p/3596265239004/laine-de-verre-140-mm-mur-32-r-4-35-2-7m-x-1-2m-rouleau-kraft-isover",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Castorama (Isover Mur 32, indiqué par vous)",
+          "prix": 64.48,
+          "lot": 1,
+          "url": null,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "laine-roche-souffler": {
       "prix": 57.9,
@@ -819,15 +993,25 @@
       ]
     },
     "isolant-pse-mm": {
-      "prix": 0.18,
+      "prix": 0.15,
       "statut": "releve",
-      "note": "Panneau PSE 1,2 × 0,6 m de 30 mm à 3,90 € = 5,42 € le m² = 0,18 € par m² et par mm.",
+      "note": "Panneau PSE 100 mm (λ 0,038) de 1,2 × 0,6 m à 10,94 € = 0,152 € par m² et par mm. Le prix par mm varie de 0,14 à 0,22 € selon l’épaisseur du panneau.",
       "sources": [
         {
           "enseigne": "Brico Dépôt",
-          "url": "https://www.bricodepot.fr/catalogue/panneau-polystyrene-expanse-12x06m-ep-20mm/prod40484/",
+          "url": "https://www.bricodepot.fr/p/3334160465964/panneau-de-polystyrene-expanse-ep-100-mm",
+          "prix": 10.94,
+          "lot": 72,
+          "date": "2026-11-16",
+          "manuel": true
+        }
+      ],
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt (panneau 30 mm)",
           "prix": 3.9,
           "lot": 21.6,
+          "url": "https://www.bricodepot.fr/p/3334160402624",
           "date": "2026-11-16"
         }
       ]
@@ -878,23 +1062,30 @@
       "sources": []
     },
     "beton-cell-20": {
-      "prix": 9.49,
+      "prix": 8.95,
       "statut": "releve",
       "sources": [
         {
           "enseigne": "Brico Dépôt",
-          "url": "https://www.bricodepot.fr/p/4065181019704/bloc-de-beton-cellulaire-62-5x25x20cm",
-          "prix": 9.49,
+          "url": "https://www.bricodepot.fr/p/3346851091420/beton-cellulaire-ytong-62-5-x-25-x-20-cm",
+          "prix": 8.95,
           "lot": 1,
           "date": "2026-11-16"
         }
       ],
       "comparaison": [
         {
+          "enseigne": "Brico Dépôt (autre fiche)",
+          "prix": 9.49,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/p/4065181019704/bloc-de-beton-cellulaire-62-5x25x20cm",
+          "date": "2026-11-16"
+        },
+        {
           "enseigne": "Castorama",
-          "url": "https://www.castorama.fr/beton-cellulaire-ytong-62-5-x-25-x-ep-20-cm/4065181019704_CAFR.prd",
           "prix": 8.95,
           "lot": 1,
+          "url": "https://www.castorama.fr/beton-cellulaire-ytong-62-5-x-25-x-ep-20-cm/4065181019704_CAFR.prd",
           "date": "2026-11-16"
         }
       ]
@@ -922,19 +1113,6 @@
           "enseigne": "Brico Dépôt",
           "url": "https://www.bricodepot.fr/catalogue/colle-beton-cellulaire-et-pave-de-verre-interieur-et-exterieur-sac-de-25kg/prod4879/",
           "prix": 13.9,
-          "lot": 1,
-          "date": "2026-11-16"
-        }
-      ]
-    },
-    "sable-sac": {
-      "prix": 3.99,
-      "statut": "releve",
-      "sources": [
-        {
-          "enseigne": "Brico Dépôt",
-          "url": "https://www.bricodepot.fr/catalogue/sable-a-batir-pour-les-travaux-de-maconnerie-granulo-04mm-en-sac-de-35kg/prod58939/",
-          "prix": 3.99,
           "lot": 1,
           "date": "2026-11-16"
         }
@@ -1001,17 +1179,18 @@
       "sources": []
     },
     "enduit-monocouche": {
-      "prix": 11.9,
+      "prix": 9.9,
       "statut": "releve",
       "sources": [
         {
           "enseigne": "Brico Dépôt",
-          "url": "https://www.bricodepot.fr/p/3388751982408/enduit-monocouche-couleur-pierre-clair-sac-de25kg",
-          "prix": 11.9,
+          "url": "https://www.bricodepot.fr/p/5413945050071/enduit-de-facade-monocouche-ton-rose-25-kg",
+          "prix": 9.9,
           "lot": 1,
           "date": "2026-11-16"
         }
-      ]
+      ],
+      "note": "Enduit monocouche 25 kg, teinte la moins chère (le prix varie peu selon la teinte : 9,90 à 12,90 €)."
     },
     "profile-depart": {
       "prix": 1.5,
@@ -1019,14 +1198,41 @@
       "sources": []
     },
     "baguette-angle": {
-      "prix": 1.5,
-      "statut": "estime",
-      "sources": []
+      "prix": 3.63,
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3585501078408/baguette-d-angle-pour-facade-3-m-1",
+          "prix": 10.9,
+          "lot": 3,
+          "date": "2026-11-16"
+        }
+      ],
+      "note": "Écart de +142 % avec l’ancienne valeur (1,5 €) : produit et unité revérifiés, prix de la fiche conservé."
     },
     "lame-pin-21": {
-      "prix": 7,
-      "statut": "estime",
-      "sources": []
+      "prix": 4,
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3460585140244/lame-de-terrasse-en-pin-vert-21x120x3000-mm",
+          "prix": 5,
+          "lot": 1.25,
+          "date": "2026-11-16"
+        }
+      ],
+      "note": "Lame de pin 21 × 120 mm de 3 m à 5,00 €, ramenée à 2,4 m (4,00 €). Largeur 12 cm au lieu de 14,5 cm. Écart de -43 % avec l’ancienne valeur (7 €) : produit et unité revérifiés, prix de la fiche conservé.",
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt",
+          "prix": 4.47,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/p/3460585149278/lame-de-terrasse-pin-teinte-vert-autoclave-classe-4-l-250-x-l-12-x-ep-2-1-cm",
+          "date": "2026-11-16"
+        }
+      ]
     },
     "lame-bois-27": {
       "prix": 6.7,
@@ -1097,23 +1303,50 @@
       ]
     },
     "dalle-gres-60x60": {
-      "prix": 14.32,
+      "prix": 11.45,
       "statut": "releve",
-      "note": "Dalle Nativa Quartz 60 × 60 cm, 20 mm.",
+      "note": "Dalle grise 60 × 60 cm, 20 mm (15,90 € le m²).",
       "sources": [
         {
           "enseigne": "Brico Dépôt",
-          "url": "https://www.bricodepot.fr/p/8013259004806/dalle-exterieur-gres-cerame-emaille-gris-nativa-quartz-60-x-60-cm",
+          "url": "https://www.bricodepot.fr/p/8016609022895/dalle-gris-60-x-60-cm-x-ep-20-mm",
+          "prix": 11.45,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt (Nativa Quartz)",
           "prix": 14.32,
           "lot": 1,
+          "url": "https://www.bricodepot.fr/p/8013259004806/dalle-exterieur-gres-cerame-emaille-gris-nativa-quartz-60-x-60-cm",
           "date": "2026-11-16"
         }
       ]
     },
     "tuile-mecanique": {
-      "prix": 1.3,
-      "statut": "estime",
-      "sources": []
+      "prix": 0.99,
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/8433002033646/tuile-marseille-rouge-ep-55-mm-466-x-260-x-55-mm",
+          "prix": 0.99,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "note": "Tuile Marseille rouge, 11 tuiles au m² (12 dans le calcul).",
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt",
+          "prix": 1.8,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/p/8433002033899/tuile-tamaris-rouge-ep-73-mm",
+          "date": "2026-11-16"
+        }
+      ]
     },
     "tuile-grand-moule": {
       "prix": 1.9,
@@ -1158,16 +1391,40 @@
       ]
     },
     "faitiere": {
-      "prix": 7.1,
+      "prix": 7,
       "statut": "releve",
-      "date": "2026-11",
-      "note": "Prix relevé par vous en novembre 2026 ; fiche produit non retrouvée.",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/8433002007524/faitiere-a-pureau-variable-double-emboitement-hispania-ep-73-mm",
+          "prix": 7,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt",
+          "prix": 7.1,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/p/8433002007654/faitiere-a-pureau-variable-double-emboitement-rouge-ep-73-mm",
+          "date": "2026-11-16"
+        }
+      ]
     },
     "closoir-ventile": {
-      "prix": 24.9,
-      "statut": "estime",
-      "sources": []
+      "prix": 34,
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3467670022706/closoir-ventile-anthracite-l-0-39-mm-l-5-m",
+          "prix": 34,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "note": "Écart de +37 % avec l’ancienne valeur (24,9 €) : produit et unité revérifiés, prix de la fiche conservé."
     },
     "gouttiere-profile": {
       "prix": 20.5,
@@ -1183,11 +1440,17 @@
       ]
     },
     "crochet-gouttiere": {
-      "prix": 1.79,
+      "prix": 1.99,
       "statut": "releve",
-      "date": "2026-11",
-      "note": "Prix relevé par vous en novembre 2026 ; fiche produit non retrouvée.",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/8019966005518/crochet-bandeau-en-pvc-dev-25-mm-gris",
+          "prix": 1.99,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "jonction-gouttiere": {
       "prix": 5,
@@ -1200,9 +1463,18 @@
       "sources": []
     },
     "fond-gouttiere": {
-      "prix": 4.5,
-      "statut": "estime",
-      "sources": []
+      "prix": 2.99,
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/8019966019751/fond-de-gouttiere-en-pvc-25-mm-gris",
+          "prix": 2.99,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "note": "Écart de -34 % avec l’ancienne valeur (4,5 €) : produit et unité revérifiés, prix de la fiche conservé."
     },
     "tube-descente-80": {
       "prix": 8.89,
@@ -1218,9 +1490,17 @@
       ]
     },
     "collier-descente": {
-      "prix": 3.5,
-      "statut": "estime",
-      "sources": []
+      "prix": 2.66,
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/8011031201092/sachet-de-3-colliers-de-fixation-pour-gouttiere-en-pvc-o-80-mm-gris",
+          "prix": 7.99,
+          "lot": 3,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "coude-80": {
       "prix": 4.69,
@@ -1236,14 +1516,31 @@
       ]
     },
     "prise-2pt": {
-      "prix": 4.49,
+      "prix": 1.19,
       "statut": "releve",
       "sources": [
         {
           "enseigne": "Brico Dépôt",
-          "url": "https://www.bricodepot.fr/p/3414973063073/prise-de-courant-encastrable-neptune-2p-t-16a-blanc-87x87-cm",
+          "url": "https://www.bricodepot.fr/p/5059340407319/prise-blanche-2p-terre-complete-a-encastrer",
+          "prix": 1.19,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "note": "Prise 2P+T complète à encastrer, entrée de gamme. Écart de -73 % avec l’ancienne valeur (4,49 €) : produit et unité revérifiés, prix de la fiche conservé.",
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt (Neptune)",
           "prix": 4.49,
           "lot": 1,
+          "url": "https://www.bricodepot.fr/p/3414973063073/prise-de-courant-encastrable-neptune-2p-t-16a-blanc-87x87-cm",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt",
+          "prix": 2.59,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/p/5059340403502/prise-2p-t-complet-mauka-blanc-brillant-hauteur-3-73-cm",
           "date": "2026-11-16"
         }
       ]
@@ -1310,9 +1607,18 @@
       ]
     },
     "cable-3g6-m": {
-      "prix": 3.8,
-      "statut": "estime",
-      "sources": []
+      "prix": 4.99,
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3601658012055/cable-electrique-r2v-3g6-mm-noir-vendu-au-metre",
+          "prix": 4.99,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "note": "Écart de +31 % avec l’ancienne valeur (3,8 €) : produit et unité revérifiés, prix de la fiche conservé."
     },
     "gaine-icta-100": {
       "prix": 21.9,
@@ -1328,18 +1634,27 @@
       ]
     },
     "prise-rj45": {
-      "prix": 13.9,
+      "prix": 13.65,
       "statut": "releve",
       "sources": [
         {
           "enseigne": "Brico Dépôt",
-          "url": "https://www.bricodepot.fr/catalogue/prise-ethernet-rj45-ovalis-blanc-grade-3-cat-6-stp-reseaux-vdi/prod90449/",
-          "prix": 13.9,
+          "url": "https://www.bricodepot.fr/p/3662366031530/prise-ethernet-rj45-categorie-6-delta-mega-blanc",
+          "prix": 13.65,
           "lot": 1,
           "date": "2026-11-16"
         }
       ],
-      "note": "Prise RJ45 catégorie 6 (Ovalis). Écart de +101 % avec l’ancienne valeur (6,9 €) : produit et unité revérifiés, prix de la fiche conservé."
+      "note": "Prise RJ45 catégorie 6 la moins chère trouvée (Delta Mega).",
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt (Ovalis)",
+          "prix": 13.9,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/catalogue/prise-ethernet-rj45-ovalis-blanc-grade-3-cat-6-stp-reseaux-vdi/prod90449/",
+          "date": "2026-11-16"
+        }
+      ]
     },
     "cable-cat6-100": {
       "prix": 82.9,
@@ -1401,15 +1716,24 @@
       ]
     },
     "robinet-arret": {
-      "prix": 9.9,
+      "prix": 7.5,
       "statut": "releve",
-      "note": "Écart de +32 % avec l’ancienne valeur (7,5 €) : produit et unité revérifiés, prix de la fiche conservé.",
+      "note": "Robinet d’arrêt à souder Ø 16 mm.",
       "sources": [
         {
           "enseigne": "Brico Dépôt",
-          "url": "https://www.bricodepot.fr/p/3540736951124/mini-robinet-a-sphere-femelle-1-4-de-tour-de-filetage-entree-sortie-12-17-mm",
+          "url": "https://www.bricodepot.fr/p/3540732791168/robinet-d-arret-a-souder-o-16-mm",
+          "prix": 7.5,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt (mini-robinet à sphère 12/17)",
           "prix": 9.9,
           "lot": 1,
+          "url": "https://www.bricodepot.fr/p/3540736951124/mini-robinet-a-sphere-femelle-1-4-de-tour-de-filetage-entree-sortie-12-17-mm",
           "date": "2026-11-16"
         }
       ]
@@ -1422,73 +1746,155 @@
       "sources": []
     },
     "tube-pvc-32": {
-      "prix": 3.39,
+      "prix": 2.99,
       "statut": "releve",
       "sources": [
         {
           "enseigne": "Brico Dépôt",
-          "url": "https://www.bricodepot.fr/p/3396040120325",
+          "url": "https://www.bricodepot.fr/p/3601655000581/tube-gris-en-pvc-o-32-mm-2-metres",
+          "prix": 2.99,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt (compact)",
           "prix": 3.39,
           "lot": 1,
+          "url": "https://www.bricodepot.fr/p/3396040120325",
           "date": "2026-11-16"
         }
       ]
     },
     "tube-pvc-40": {
-      "prix": 3.99,
-      "statut": "releve",
-      "date": "2026-11",
-      "note": "Prix relevé par vous en novembre 2026 ; fiche produit non retrouvée.",
-      "sources": []
-    },
-    "tube-pvc-100": {
-      "prix": 7.39,
-      "statut": "releve",
-      "date": "2026-11",
-      "note": "Prix relevé par vous en novembre 2026 ; fiche produit non retrouvée.",
-      "sources": []
-    },
-    "coude-pvc-32": {
-      "prix": 0.79,
-      "statut": "releve",
-      "date": "2026-11",
-      "note": "Prix relevé par vous en novembre 2026 ; fiche produit non retrouvée.",
-      "sources": []
-    },
-    "coude-pvc-40": {
-      "prix": 1.19,
-      "statut": "releve",
-      "date": "2026-11",
-      "note": "Prix relevé par vous en novembre 2026 ; fiche produit non retrouvée.",
-      "sources": []
-    },
-    "coude-pvc-100": {
-      "prix": 3.79,
-      "statut": "releve",
-      "date": "2026-11",
-      "note": "Prix relevé par vous en novembre 2026 ; fiche produit non retrouvée.",
-      "sources": []
-    },
-    "siphon-bonde": {
-      "prix": 7.19,
-      "statut": "releve",
-      "date": "2026-11",
-      "note": "Prix relevé par vous en novembre 2026 ; fiche produit non retrouvée.",
-      "sources": []
-    },
-    "colle-pvc": {
-      "prix": 15.9,
+      "prix": 3.5,
       "statut": "releve",
       "sources": [
         {
           "enseigne": "Brico Dépôt",
-          "url": "https://www.bricodepot.fr/p/3184410217948/colle-raccords-et-tuyaux-pvc-pot-de-250ml-avec-pinceau-integre",
-          "prix": 15.9,
+          "url": "https://www.bricodepot.fr/p/3601655000611/tube-gris-en-pvc-o-40-mm-2-metres",
+          "prix": 3.5,
           "lot": 1,
           "date": "2026-11-16"
         }
       ],
-      "note": "Écart de +130 % avec l’ancienne valeur (6,9 €) : produit et unité revérifiés, prix de la fiche conservé."
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt",
+          "prix": 4.29,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/p/3396040120400/tube-pvc-compact-pour-l-evacuation-des-eaux-usees-o-40-mm-l-2-m",
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "tube-pvc-100": {
+      "prix": 5.25,
+      "statut": "releve",
+      "note": "Tube Ø 100 de 4 m à 10,50 €, ramené à 2 m (5,25 €).",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/catalogue/tube-pvc-compact-pour-levacuation-des-eaux-usees--32mm-l-4m/prod8051/",
+          "prix": 10.5,
+          "lot": 2,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "coude-pvc-32": {
+      "prix": 0.79,
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3396047408037/coude-pvc-87-m-f-o-32-mm-pour-l-evacuation-gravitaire-des-eaux-usees-et-pluviales",
+          "prix": 0.79,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "coude-pvc-40": {
+      "prix": 0.79,
+      "statut": "releve",
+      "note": "Écart de -34 % avec l’ancienne valeur (1,19 €) : produit et unité revérifiés, prix de la fiche conservé.",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3396047408044/coude-pvc-pour-evacuation-87-m-f-o-40-mm",
+          "prix": 0.79,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "coude-pvc-100": {
+      "prix": 3.79,
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3396047518101/coude-pvc-pour-l-evacuation-gravitaire-des-eaux-usees-et-pluviales-87-f-f-o-100-mm",
+          "prix": 3.79,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "siphon-bonde": {
+      "prix": 2.99,
+      "statut": "releve",
+      "note": "Siphon de lavabo, le moins cher des siphons standard (évier 2,99 €, universel 7,19 €). Écart de -58 % avec l’ancienne valeur (7,19 €) : produit et unité revérifiés, prix de la fiche conservé.",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3375537194070/siphon-de-lavabo-hauteur-reglable-45-a-90mm-o-sortie-32-mm",
+          "prix": 2.99,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt",
+          "prix": 7.19,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/p/3375537196715/siphon-universel-blanc-pour-lavabo-lave-mains-bidet-ou-evier-reglable-en-hauteur-de-125-a-170-mm",
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "colle-pvc": {
+      "prix": 6.99,
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/5059340615752/colle-pour-tuyaux-en-pvc-pot-250-ml",
+          "prix": 6.99,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "note": "Écart de -56 % avec l’ancienne valeur (15,9 €) : produit et unité revérifiés, prix de la fiche conservé.",
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt (haute performance)",
+          "prix": 9.99,
+          "lot": 1,
+          "url": null,
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt (Sader, marque premium)",
+          "prix": 15.9,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/p/3184410217948/colle-raccords-et-tuyaux-pvc-pot-de-250ml-avec-pinceau-integre",
+          "date": "2026-11-16"
+        }
+      ]
     }
   }
 }

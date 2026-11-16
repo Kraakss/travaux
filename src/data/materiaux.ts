@@ -193,7 +193,6 @@ const DEFINITIONS: MateriauDef[] = [
   { id: 'beton-cell-25', nom: 'Bloc de béton cellulaire 25 cm', famille: 'maconnerie', unite: 'bloc 62,5 × 25 cm' },
   { id: 'beton-cell-30', nom: 'Bloc de béton cellulaire 30 cm', famille: 'maconnerie', unite: 'bloc 62,5 × 25 cm' },
   { id: 'colle-beton-cellulaire', nom: 'Colle pour béton cellulaire', famille: 'maconnerie', unite: 'sac de 25 kg' },
-  { id: 'sable-sac', nom: 'Sable en sac', famille: 'maconnerie', unite: 'sac de 35 kg' },
   { id: 'primaire-litre', nom: 'Primaire (au litre)', famille: 'carrelage', unite: 'litre' },
   { id: 'spec', nom: 'SPEC (étanchéité sous carrelage)', famille: 'carrelage', unite: 'seau de 5 kg' },
   { id: 'bande-etancheite', nom: 'Bande d\'étanchéité', famille: 'carrelage', unite: 'mètre' },
