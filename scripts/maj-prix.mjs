@@ -150,6 +150,9 @@ async function principal() {
 
   console.log(`Prix lus avec succès : ${nbMaj} source(s). Échecs : ${echecs.length}.`)
   for (const e of echecs) console.log(`  - ${e.id} : ${e.raison} (${e.url})`)
+  if (process.env.GITHUB_ACTIONS && echecs.length > 0) {
+    console.log(`::warning::${echecs.length} prix non mis à jour (pages inaccessibles depuis GitHub). Les anciens prix sont conservés.`)
+  }
 }
 
 if (process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1]) {
