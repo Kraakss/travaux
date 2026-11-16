@@ -1,6 +1,6 @@
 {
-  "version": 5,
-  "misAJour": "2026-11-16T19:34:05.632Z",
+  "version": 6,
+  "misAJour": "2026-11-16T19:41:40.585Z",
   "prix": {
     "plaque-standard-250": {
       "prix": 7.95,
@@ -351,10 +351,18 @@
       "sources": []
     },
     "peinture-murs-2_5l": {
-      "prix": 9.9,
-      "statut": "estime",
+      "prix": 18.9,
+      "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/5063022528100/peinture-blanc-2l5-mat",
+          "prix": 18.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "peinture-murs-5l": {
       "prix": 21.9,
@@ -391,28 +399,28 @@
       "sources": []
     },
     "peinture-plafond-2_5l": {
-      "prix": 35.9,
+      "prix": 18.9,
       "statut": "releve",
       "date": "2026-11-16",
       "sources": [
         {
           "enseigne": "Brico Dépôt",
-          "url": "https://www.bricodepot.fr/p/5059340264431/peinture-blanche-interieure-plafonds-mat-2-5-l",
-          "prix": 35.9,
+          "url": "https://www.bricodepot.fr/p/5063022528100/peinture-blanc-2l5-mat",
+          "prix": 18.9,
           "lot": 1,
           "date": "2026-11-16"
         }
       ]
     },
     "peinture-plafond-5l": {
-      "prix": 38.5,
+      "prix": 21.9,
       "statut": "releve",
       "date": "2026-11-16",
       "sources": [
         {
           "enseigne": "Brico Dépôt",
-          "url": "https://www.bricodepot.fr/p/3174269078579/peinture-murs-et-plafonds-interieur-mat-5-l-blanc",
-          "prix": 38.5,
+          "url": "https://www.bricodepot.fr/p/5059340264509/peinture-blanche-interieure-murs-mat-5-l",
+          "prix": 21.9,
           "lot": 1,
           "date": "2026-11-16"
         }

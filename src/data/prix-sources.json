@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "dateReleve": "2026-11-16",
   "materiaux": {
     "plaque-standard-250": {
@@ -340,9 +340,48 @@
       "sources": []
     },
     "peinture-murs-2_5l": {
-      "prix": 9.9,
-      "statut": "estime",
-      "sources": []
+      "prix": 18.9,
+      "statut": "releve",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/5063022528100/peinture-blanc-2l5-mat",
+          "prix": 18.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "note": "Peinture Evalux blanc mat intérieur 2,5 L, la moins chère de la catégorie « Peinture blanche mur et plafond ». Écart de +91 % avec l’ancienne estimation (9,90 €) : produit et unité revérifiés.",
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt (2 en 1 avec sous-couche, 2,5 L)",
+          "prix": 27.9,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/p/5059340264448",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt (10 L Wall Paint, 1,09 € le litre)",
+          "prix": 10.9,
+          "lot": 10,
+          "url": "https://www.bricodepot.fr/p/5059340271682/peinture-blanche-murs-et-plafonds-mat-10-l",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt (10 L Evalux, 1,99 € le litre)",
+          "prix": 19.9,
+          "lot": 10,
+          "url": "https://www.bricodepot.fr/p/5063022548016",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt (10 L murs et plafonds, 2,45 € le litre)",
+          "prix": 24.5,
+          "lot": 10,
+          "url": "https://www.bricodepot.fr/p/3661521150659/peinture-blanc-mat-murs-et-plafonds-grands-travaux-pot-10l",
+          "date": "2026-11-16"
+        }
+      ]
     },
     "peinture-murs-5l": {
       "prix": 21.9,
@@ -353,6 +392,51 @@
           "url": "https://www.bricodepot.fr/p/5059340264509/peinture-blanche-interieure-murs-mat-5-l",
           "prix": 21.9,
           "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "note": "Peinture Evalux blanc intérieur murs mat 5 L (vérifié : intérieure, murs, blanche, mate, entrée de gamme).",
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt (2 en 1 avec sous-couche, 5 L)",
+          "prix": 35.9,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/p/5063022527585",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt (murs et plafonds 2 en 1, 5 L)",
+          "prix": 38.5,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/p/3174269078579/peinture-murs-et-plafonds-interieur-mat-5-l-blanc",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt (satin, 5 L)",
+          "prix": 24.9,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/p/5059340264356/peinture-blanche-interieure-murs-satin-5-l",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt (10 L Wall Paint, 1,09 € le litre)",
+          "prix": 10.9,
+          "lot": 10,
+          "url": "https://www.bricodepot.fr/p/5059340271682/peinture-blanche-murs-et-plafonds-mat-10-l",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt (10 L Evalux, 1,99 € le litre)",
+          "prix": 19.9,
+          "lot": 10,
+          "url": "https://www.bricodepot.fr/p/5063022548016",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt (10 L murs et plafonds, 2,45 € le litre)",
+          "prix": 24.5,
+          "lot": 10,
+          "url": "https://www.bricodepot.fr/p/3661521150659/peinture-blanc-mat-murs-et-plafonds-grands-travaux-pot-10l",
           "date": "2026-11-16"
         }
       ]
@@ -376,32 +460,106 @@
       "sources": []
     },
     "peinture-plafond-2_5l": {
-      "prix": 35.9,
+      "prix": 18.9,
       "statut": "releve",
       "sources": [
         {
           "enseigne": "Brico Dépôt",
-          "url": "https://www.bricodepot.fr/p/5059340264431/peinture-blanche-interieure-plafonds-mat-2-5-l",
+          "url": "https://www.bricodepot.fr/p/5063022528100/peinture-blanc-2l5-mat",
+          "prix": 18.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ],
+      "note": "Même peinture intérieure blanche mate que pour les murs (catégorie « mur et plafond ») : aucune peinture « plafond » standard en 2,5 L chez Brico Dépôt. Remplace les 35,90 € de la peinture « plafonds tachés », qui est une peinture spéciale. Écart de +91 % avec l’ancienne estimation (9,90 €).",
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt (plafonds tachés 2,5 L, peinture spéciale)",
           "prix": 35.9,
           "lot": 1,
+          "url": "https://www.bricodepot.fr/p/5059340264431/peinture-blanche-interieure-plafonds-mat-2-5-l",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt (2 en 1 avec sous-couche, 2,5 L)",
+          "prix": 27.9,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/p/5059340264448",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt (10 L Wall Paint, 1,09 € le litre)",
+          "prix": 10.9,
+          "lot": 10,
+          "url": "https://www.bricodepot.fr/p/5059340271682/peinture-blanche-murs-et-plafonds-mat-10-l",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt (10 L Evalux, 1,99 € le litre)",
+          "prix": 19.9,
+          "lot": 10,
+          "url": "https://www.bricodepot.fr/p/5063022548016",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt (10 L murs et plafonds, 2,45 € le litre)",
+          "prix": 24.5,
+          "lot": 10,
+          "url": "https://www.bricodepot.fr/p/3661521150659/peinture-blanc-mat-murs-et-plafonds-grands-travaux-pot-10l",
           "date": "2026-11-16"
         }
-      ],
-      "note": "Écart de +263 % avec l’ancienne valeur (9,9 €) : produit et unité revérifiés, prix de la fiche conservé."
+      ]
     },
     "peinture-plafond-5l": {
-      "prix": 38.5,
+      "prix": 21.9,
       "statut": "releve",
       "sources": [
         {
           "enseigne": "Brico Dépôt",
-          "url": "https://www.bricodepot.fr/p/3174269078579/peinture-murs-et-plafonds-interieur-mat-5-l-blanc",
-          "prix": 38.5,
+          "url": "https://www.bricodepot.fr/p/5059340264509/peinture-blanche-interieure-murs-mat-5-l",
+          "prix": 21.9,
           "lot": 1,
           "date": "2026-11-16"
         }
       ],
-      "note": "Peinture murs et plafonds mat 5 L (moins chère que la peinture « plafonds » seule, 54,90 €). Écart de +128 % avec l’ancienne valeur (16,9 €) : produit et unité revérifiés, prix de la fiche conservé."
+      "note": "Même peinture intérieure blanche mate que pour les murs (catégorie « mur et plafond ») : aucune peinture « plafond » standard en 5 L chez Brico Dépôt. Remplace les 38,50 € d’une peinture 2 en 1 avec sous-couche. Écart de +30 % avec l’ancienne estimation (16,90 €).",
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt (plafonds tachés 5 L, peinture spéciale)",
+          "prix": 54.9,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/p/5059340271705/peinture-blanche-interieure-plafonds-mat-5-l",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt (murs et plafonds 2 en 1, 5 L)",
+          "prix": 38.5,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/p/3174269078579/peinture-murs-et-plafonds-interieur-mat-5-l-blanc",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt (10 L Wall Paint, 1,09 € le litre)",
+          "prix": 10.9,
+          "lot": 10,
+          "url": "https://www.bricodepot.fr/p/5059340271682/peinture-blanche-murs-et-plafonds-mat-10-l",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt (10 L Evalux, 1,99 € le litre)",
+          "prix": 19.9,
+          "lot": 10,
+          "url": "https://www.bricodepot.fr/p/5063022548016",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt (10 L murs et plafonds, 2,45 € le litre)",
+          "prix": 24.5,
+          "lot": 10,
+          "url": "https://www.bricodepot.fr/p/3661521150659/peinture-blanc-mat-murs-et-plafonds-grands-travaux-pot-10l",
+          "date": "2026-11-16"
+        }
+      ]
     },
     "peinture-plafond-10l": {
       "prix": 24.5,
@@ -420,7 +578,8 @@
     "sous-couche-1l": {
       "prix": 6.9,
       "statut": "estime",
-      "sources": []
+      "sources": [],
+      "note": "Estimation conservée : aucune sous-couche de 1 L chez Brico Dépôt (seulement 0,75 L à 15,90 € et 0,5 L à 25,50 €)."
     },
     "sous-couche-2_5l": {
       "prix": 27.9,
@@ -434,7 +593,23 @@
           "date": "2026-11-16"
         }
       ],
-      "note": "Écart de +101 % avec l’ancienne valeur (13,9 €) : produit et unité revérifiés, prix de la fiche conservé."
+      "note": "Vraie sous-couche (Evalux universelle, plâtre, plaques de plâtre, boiseries), pas une peinture 2 en 1 : vérifié. Écart de +101 % avec l’ancienne estimation (13,90 €).",
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt (0,75 L universelle, 21,20 € le litre)",
+          "prix": 15.9,
+          "lot": 0.75,
+          "url": "https://www.bricodepot.fr/p/5059340834344/sous-couche-universelle-0-75-l",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt (peinture 2 en 1 de finition, ne convient pas)",
+          "prix": 27.9,
+          "lot": 1,
+          "url": "https://www.bricodepot.fr/p/5059340264448",
+          "date": "2026-11-16"
+        }
+      ]
     },
     "sous-couche-5l": {
       "prix": 31.9,
@@ -448,7 +623,23 @@
           "date": "2026-11-16"
         }
       ],
-      "note": "Écart de +39 % avec l’ancienne valeur (22,9 €) : produit et unité revérifiés, prix de la fiche conservé."
+      "note": "Vraie sous-couche (Evalux plaques de plâtre, plâtre, murs neufs ou peints), pas une peinture 2 en 1 : vérifié. Écart de +39 % avec l’ancienne estimation (22,90 €).",
+      "comparaison": [
+        {
+          "enseigne": "Brico Dépôt (10 L, 4,19 € le litre)",
+          "prix": 41.9,
+          "lot": 10,
+          "url": "https://www.bricodepot.fr/p/5059340833859",
+          "date": "2026-11-16"
+        },
+        {
+          "enseigne": "Brico Dépôt (10 L GoodHome, 3,85 € le litre)",
+          "prix": 38.5,
+          "lot": 10,
+          "url": "https://www.bricodepot.fr/p/5059340141817/peinture-sous-couche-murs-et-plafonds-interieure-blanc-10-l",
+          "date": "2026-11-16"
+        }
+      ]
     },
     "sous-couche-10l": {
       "prix": 38.5,
