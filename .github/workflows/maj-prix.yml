@@ -24,8 +24,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          # les dates changent à chaque passage : on ne commite que si un prix a changé
-          if git diff --quiet -I'"misAJour"' -I'"date"' -- public/prix.json; then
+          # on ne commite que si au moins un PRIX a changé (pas les dates ni la liste d'échecs)
+          ancien=          nouveau=          if [ "" = "" ]; then
             echo "Aucun prix n'a changé."
             exit 0
           fi
