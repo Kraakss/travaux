@@ -8,6 +8,7 @@ import { SaisieTravail } from './pages/SaisieTravail'
 import { DevisPage } from './pages/DevisPage'
 import { PrixPage } from './pages/PrixPage'
 import { ReglagesPage } from './pages/ReglagesPage'
+import { SourcesPage } from './pages/SourcesPage'
 import { Introuvable } from './ui/Page'
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/chantier/:cid/piece/:pid/travail/:tid" element={<SaisieTravail />} />
           <Route path="/prix" element={<PrixPage />} />
           <Route path="/reglages" element={<ReglagesPage />} />
+          <Route path="/reglages/sources" element={<SourcesPage />} />
           <Route path="*" element={<Introuvable quoi="Cette page" />} />
         </Routes>
       </HashRouter>

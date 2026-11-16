@@ -90,7 +90,7 @@ export function DevisPage() {
                       {l.note ? ` · ${l.note}` : ''}
                     </small>
                   </td>
-                  <td className="num">{fmtNombre(l.quantite, 0)}</td>
+                  <td className="num">{fmtNombre(l.quantite, 1)}</td>
                   <td className="num">{fmtEuro(l.prixUnitaire)}</td>
                   <td className="num">{fmtEuro(l.total)}</td>
                 </tr>

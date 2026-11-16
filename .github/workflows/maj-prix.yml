@@ -1,0 +1,37 @@
+name: Mise à jour des prix
+
+# Chaque lundi matin, et à la demande (onglet Actions > Mise à jour des prix > Run workflow)
+on:
+  schedule:
+    - cron: '17 5 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  maj-prix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Lire les prix sur les fiches produits
+        run: node scripts/maj-prix.mjs
+      - name: Enregistrer public/prix.json et redéployer s'il a changé
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # les dates changent à chaque passage : on ne commite que si un prix a changé
+          if git diff --quiet -I'"misAJour"' -I'"date"' -- public/prix.json; then
+            echo "Aucun prix n'a changé."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/prix.json
+          git commit -m "Mise à jour automatique des prix"
+          git push
+          gh workflow run deploy.yml

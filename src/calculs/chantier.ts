@@ -25,7 +25,8 @@ export interface Chantier {
 export function resultatTravail(t: Travail, pertes: Pertes): Resultat {
   const fiche = trouverFiche(t.categorie)
   if (!fiche) return resultatVide()
-  return fiche.calculer(t.entrees, pertes)
+  // Les valeurs par défaut complètent les travaux enregistrés avant l'ajout de nouveaux champs
+  return fiche.calculer({ ...fiche.defauts(), ...t.entrees }, pertes)
 }
 
 /** Devis d'un seul travail (chaque quantité arrondie) */

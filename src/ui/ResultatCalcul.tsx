@@ -18,6 +18,11 @@ export function ResultatCalcul({ fiche, entrees, pertes, prix }: { fiche: Fiche;
           ⚠️ {a}
         </p>
       ))}
+      {(res.notes ?? []).map((n) => (
+        <p key={n} className="conseil">
+          💡 {n}
+        </p>
+      ))}
       <dl className="infos">
         {res.infos.map((i) => (
           <div key={i.cle}>
@@ -39,7 +44,7 @@ export function ResultatCalcul({ fiche, entrees, pertes, prix }: { fiche: Fiche;
             </div>
             <div className="mat-detail">
               <span>
-                <strong>{fmtNombre(l.quantite, 0)}</strong> {l.unite}
+                <strong>{fmtNombre(l.quantite, 1)}</strong> {l.unite}
                 {!l.note && l.quantiteExacte !== l.quantite && <small> ({fmtNombre(l.quantiteExacte, 2)})</small>}
               </span>
               <span>

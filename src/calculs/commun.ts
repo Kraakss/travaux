@@ -41,6 +41,8 @@ export interface Resultat {
   lignes: LigneQte[]
   infos: Info[]
   avertissements: string[]
+  /** Conseils neutres (non bloquants), affichés sans alerte */
+  notes?: string[]
 }
 
 export interface Ouvertures {
@@ -75,6 +77,8 @@ export type Entrees = Record<string, Valeur>
 interface ChampBase {
   id: string
   label: string
+  /** Petite explication affichée sous le libellé */
+  aide?: string
   /** Si défini et renvoie false, le champ est masqué */
   visible?: (e: any) => boolean
 }
@@ -89,6 +93,7 @@ export type ChampDef =
 export interface Fiche<E = any> {
   id: string
   nom: string
+  /** Identifiant de l'icône (voir src/components/icones) */
   icone: string
   /** Champs affichés dans le formulaire, dans l'ordre */
   champs: ChampDef[]

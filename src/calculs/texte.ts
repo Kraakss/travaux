@@ -11,7 +11,7 @@ export function texteDevis(
   for (const f of devis.familles) {
     l.push(f.nom.toUpperCase())
     for (const x of f.lignes) {
-      l.push(`- ${fmtNombre(x.quantite)} × ${x.nom} (${x.unite}) : ${fmtEuro(x.total)}`)
+      l.push(`- ${fmtNombre(x.quantite, 1)} × ${x.nom} (${x.unite}) : ${fmtEuro(x.total)}`)
     }
     l.push(`Sous-total ${f.nom.toLowerCase()} : ${fmtEuro(f.total)}`, '')
   }

@@ -28,6 +28,14 @@ export function perteCarrelageDefaut(e: Pick<EntreesCarrelage, 'pose'>, p: Perte
   return e.pose === 'diagonale' ? p.carrelageDiagonale : p.carrelageDroite
 }
 
+/** Consommation de colle (kg/m²) selon la surface du carreau (cm²) */
+export function consoColle(surfaceCarreauCm2: number): number {
+  if (surfaceCarreauCm2 <= 500) return 4
+  if (surfaceCarreauCm2 <= 1200) return 5
+  if (surfaceCarreauCm2 <= 3600) return 7
+  return 8
+}
+
 export function calculerCarrelage(e: EntreesCarrelage, pertes: Pertes): Resultat {
   const L = nb(e.longueur), l = nb(e.largeur)
   const perte = perteEffective(e.perte, perteCarrelageDefaut(e, pertes))
@@ -38,8 +46,8 @@ export function calculerCarrelage(e: EntreesCarrelage, pertes: Pertes): Resultat
   const nbCarreaux = div(Sm, surfaceCarreau)
   const surfCarton = nb(e.surfaceCarton)
   const cartons = div(Sm, surfCarton)
-  const grandCote = Math.max(ca, cb) * 100 // cm
-  const k = grandCote <= 30 ? 4 : grandCote <= 60 ? 5 : 7
+  const k = consoColle(nb(e.carreau?.a) * nb(e.carreau?.b))
+  const colleKg = Sm * k
   const j = nb(e.joint) / 1000
   const ep = nb(e.epaisseur) / 1000
   const jointKg = surfaceCarreau > 0 ? S * ((ca + cb) / surfaceCarreau) * j * ep * 1600 * 1.1 : 0
@@ -52,7 +60,7 @@ export function calculerCarrelage(e: EntreesCarrelage, pertes: Pertes): Resultat
       facteur: surfCarton,
       detail: `carton de ${String(surfCarton).replace('.', ',')} m²`,
     },
-    { materiauId: 'colle-carrelage', quantite: (Sm * k) / 25 },
+    { materiauId: 'colle-carrelage', quantite: colleKg / 25 },
     { materiauId: 'joint-carrelage', quantite: jointKg / 5 },
     { materiauId: 'croisillons', quantite: (nbCarreaux * 1.1) / 200 },
   ]
@@ -70,16 +78,18 @@ export function calculerCarrelage(e: EntreesCarrelage, pertes: Pertes): Resultat
       { cle: 'surface', label: 'Surface à carreler', valeur: S, unite: 'm²' },
       { cle: 'surfaceMarge', label: 'Surface avec marge', valeur: Sm, unite: 'm²' },
       { cle: 'carreaux', label: 'Nombre de carreaux', valeur: nbCarreaux },
+      { cle: 'colleKg', label: 'Colle nécessaire', valeur: colleKg, unite: 'kg' },
       { cle: 'jointKg', label: 'Joint nécessaire', valeur: jointKg, unite: 'kg' },
     ],
     avertissements: surfCarton <= 0 ? ['Indiquez la surface par carton.'] : [],
+    notes: nb(e.carreau?.a) * nb(e.carreau?.b) > 500 ? ['Double encollage recommandé au-dessus de 500 cm²'] : [],
   }
 }
 
 export const ficheCarrelage: Fiche<EntreesCarrelage> = {
   id: 'carrelage',
   nom: 'Carrelage sol',
-  icone: '🟫',
+  icone: 'carrelage',
   champs: [
     { type: 'nombre', id: 'longueur', label: 'Longueur', unite: 'm' },
     { type: 'nombre', id: 'largeur', label: 'Largeur', unite: 'm' },

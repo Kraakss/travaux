@@ -2,6 +2,7 @@ import { Link, useParams } from 'react-router-dom'
 import { useStore } from '../store'
 import { Page, Introuvable } from '../ui/Page'
 import { FICHES } from '../calculs'
+import { IconeCategorie } from '../components/icones'
 
 export function ChoixCategorie() {
   const { cid, pid } = useParams()
@@ -14,7 +15,7 @@ export function ChoixCategorie() {
       <div className="tuiles">
         {FICHES.map((f) => (
           <Link key={f.id} to={`/chantier/${cid}/piece/${pid}/nouveau/${f.id}`} className="tuile">
-            <span className="icone">{f.icone}</span>
+            <span className="icone"><IconeCategorie nom={f.icone} taille={56} /></span>
             <span>{f.nom}</span>
           </Link>
         ))}

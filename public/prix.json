@@ -1,0 +1,529 @@
+{
+  "version": 2,
+  "misAJour": "2026-11-16T16:54:26.424Z",
+  "prix": {
+    "plaque-standard-250": {
+      "prix": 7.95,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3334160411374/plaque-de-platre-ba13-250-cm-x-120-cm-epaisseur-1-25-cm-bords-amincis",
+          "prix": 7.95,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "plaque-hydro-250": {
+      "prix": 20.1,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "plaque-feu-250": {
+      "prix": 33.21,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/catalogue/plaque-de-platre-ba-13-resistante-au-feu-nf-l-250-x-l-120-m-x-ep-13-mm/prod56917/",
+          "prix": 33.21,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "plaque-standard-240": {
+      "prix": 7.63,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "plaque-standard-300": {
+      "prix": 9.54,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "plaque-hydro-240": {
+      "prix": 19.3,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "plaque-hydro-300": {
+      "prix": 24.12,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "plaque-feu-240": {
+      "prix": 31.88,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "plaque-feu-300": {
+      "prix": 39.85,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "fourrure-f530": {
+      "prix": 3.2,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "suspente": {
+      "prix": 0.19,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/catalogue/boite-de-100-suspentes-80-mm/prod57553/",
+          "prix": 18.9,
+          "lot": 100,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "cheville": {
+      "prix": 0.21,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/5059340428789/cheville-a-expansion-en-acier-m4-46mm-pour-plaque-de-platre-pack-de-10",
+          "prix": 2.09,
+          "lot": 10,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "rail-rive": {
+      "prix": 6.1,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/catalogue/corniere-cr2-en-acier-galvanise-type-l3023-l-3m/prod11928/",
+          "prix": 6.1,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "montant-m48": {
+      "prix": 3.15,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3700387903013/montant-m48-3-m-nf",
+          "prix": 3.15,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "rail-r48": {
+      "prix": 2.49,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3454976951120/lot-de-10-rails-r48-3-m-nf",
+          "prix": 24.9,
+          "lot": 10,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "vis-25": {
+      "prix": 19.38,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3496250214699/vis-plaque-de-platre-ttpc-25-8-x-25-mm-500-pieces",
+          "prix": 9.69,
+          "lot": 0.5,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "vis-35": {
+      "prix": 24.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "bande-joint": {
+      "prix": 6.99,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/5059340820910/bande-a-joints-papier-rouleau-150-m-x-50-mm",
+          "prix": 6.99,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "enduit-poudre": {
+      "prix": 22.3,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/catalogue/enduit-a-joint-de-rebouchage-et-de-lissage-en-poudre-sachet-25-kg/prod93165/",
+          "prix": 22.3,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "enduit-pate": {
+      "prix": 28.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "isolant-rouleau": {
+      "prix": 26.91,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3596265180214/laine-de-verre-100-mm-comble-perdu-40-r-2-5-10-x-1-20-m-rouleau-kraft",
+          "prix": 35.88,
+          "lot": 1.3333333333333333,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "bande-resiliente": {
+      "prix": 18,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "carrelage-m2": {
+      "prix": 16.09,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/8016609922546/carrelage-de-sol-interieur-en-gres-cerame-emaille-carrara-blanc-60-x-60-cm",
+          "prix": 16.09,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "colle-carrelage": {
+      "prix": 9.9,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/catalogue/mortier-colle-gris-pour-carrelage-25kg/prod11556/",
+          "prix": 9.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "joint-carrelage": {
+      "prix": 14.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "croisillons": {
+      "prix": 1.75,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/catalogue/lot-de-250-croisillons-en-t-2mm/prod78286/",
+          "prix": 2.19,
+          "lot": 1.25,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "primaire-accroche": {
+      "prix": 29,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/catalogue/primaire-universel-eco-responsable-bidon-5l/prod95610/",
+          "prix": 29,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "plinthe-carrelage": {
+      "prix": 5.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "ragreage": {
+      "prix": 16.9,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3388752041159/ragreage-de-sol-autolissant-gris-25-kg-interieur-epaisseur-1-a-10-mm",
+          "prix": 16.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "peinture-murs-1l": {
+      "prix": 4.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "peinture-murs-2_5l": {
+      "prix": 9.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "peinture-murs-5l": {
+      "prix": 16.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "peinture-murs-10l": {
+      "prix": 24.5,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3661521150659/peinture-blanc-mat-murs-et-plafonds-grands-travaux-pot-10l",
+          "prix": 24.5,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "peinture-plafond-1l": {
+      "prix": 4.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "peinture-plafond-2_5l": {
+      "prix": 9.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "peinture-plafond-5l": {
+      "prix": 16.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "peinture-plafond-10l": {
+      "prix": 24.5,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3661521150659/peinture-blanc-mat-murs-et-plafonds-grands-travaux-pot-10l",
+          "prix": 24.5,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "sous-couche-1l": {
+      "prix": 6.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "sous-couche-2_5l": {
+      "prix": 13.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "sous-couche-5l": {
+      "prix": 22.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "sous-couche-10l": {
+      "prix": 38.5,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "ruban-masquage": {
+      "prix": 1.97,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "bache": {
+      "prix": 6.3,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "papier-peint": {
+      "prix": 19.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "colle-papier-peint": {
+      "prix": 6.7,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "ciment": {
+      "prix": 9.3,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3596700102672/ciment-gris-allcem-sac-35-kg",
+          "prix": 9.3,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "sable": {
+      "prix": 70,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "gravillons": {
+      "prix": 81.9,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/catalogue/sac-big-bag-de-gravier-pour-confection-de-beton-1-m3/prod57408/",
+          "prix": 81.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "beton-pret": {
+      "prix": 130,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "treillis-st25c": {
+      "prix": 65,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "film-polyane": {
+      "prix": 46,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3585150018169/film-sous-dallage-0-15-mm-pour-dalle-et-chape-beton-6-x-25-m",
+          "prix": 69,
+          "lot": 1.5,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "bande-peripherique": {
+      "prix": 11.75,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "herisson": {
+      "prix": 45,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "isolant-sous-dalle": {
+      "prix": 12,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "parpaing-10": {
+      "prix": 0.89,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "parpaing-15": {
+      "prix": 0.89,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "parpaing-20": {
+      "prix": 0.89,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "mortier": {
+      "prix": 4.8,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "linteau": {
+      "prix": 14.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    }
+  },
+  "echecs": []
+}

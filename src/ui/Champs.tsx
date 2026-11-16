@@ -176,6 +176,7 @@ export function FormulaireFiche({
             return (
               <label key={c.id} className="champ">
                 <span className="etiquette">{c.label}</span>
+                {c.aide && <small className="aide">{c.aide}</small>}
                 <span className="avec-unite">
                   <ChampNombre value={v as number | null} entier={c.entier} onChange={(x) => set(c.id, x)} />
                   {c.unite ? <span>{c.unite}</span> : null}

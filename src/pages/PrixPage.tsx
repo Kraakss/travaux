@@ -2,18 +2,20 @@ import { useState } from 'react'
 import { useStore } from '../store'
 import { Page } from '../ui/Page'
 import { ChampNombre } from '../ui/Champs'
-import { FAMILLES, MATERIAUX } from '../data/materiaux'
+import { FAMILLES, MATERIAUX, type Materiau } from '../data/materiaux'
 import { fmtEuro } from '../calculs/format'
 
 const normaliser = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
 
-function LignePrix({ id, nom, unite }: { id: string; nom: string; unite: string }) {
+function LignePrix({ m }: { m: Materiau }) {
+  const { id, nom, unite } = m
   const { etat, prixMap, setPrix } = useStore()
   const [edition, setEdition] = useState(false)
   const [valeur, setValeur] = useState<number | null>(null)
   const modifie = etat.prix[id]
-  const defaut = MATERIAUX.find((m) => m.id === id)!.prix
-  const actuel = prixMap[id] ?? defaut
+  const actuel = prixMap[id] ?? m.prix
+  const source = m.sources[0]
+  const jour = (iso: string) => new Date(iso).toLocaleDateString('fr-FR')
 
   const terminer = () => {
     if (valeur !== null && valeur !== actuel) setPrix(id, valeur)
@@ -25,7 +27,25 @@ function LignePrix({ id, nom, unite }: { id: string; nom: string; unite: string 
       <div className="prix-nom">
         <strong>{nom}</strong>
         <small>
-          {unite} · {modifie ? `modifié le ${new Date(modifie.modifieLe).toLocaleDateString('fr-FR')}` : 'prix par défaut'}
+          {unite} ·{' '}
+          {modifie?.source === 'utilisateur' ? (
+            <>modifié par vous le {jour(modifie.modifieLe)}</>
+          ) : modifie ? (
+            <>mis à jour le {jour(modifie.modifieLe)}</>
+          ) : m.statut === 'estime' ? (
+            <span className="badge orange">estimé</span>
+          ) : (
+            <>relevé le {jour(source?.date ?? '')}</>
+          )}
+          {!modifie && source && (
+            <>
+              {' '}
+              ·{' '}
+              <a href={source.url} target="_blank" rel="noopener noreferrer">
+                {source.enseigne}
+              </a>
+            </>
+          )}
         </small>
       </div>
       {edition ? (
@@ -35,7 +55,9 @@ function LignePrix({ id, nom, unite }: { id: string; nom: string; unite: string 
         </span>
       ) : (
         <button
-          className={modifie ? 'prix-bouton modifie' : 'prix-bouton'}
+          className={
+            modifie?.source === 'utilisateur' ? 'prix-bouton modifie' : !modifie && m.statut === 'estime' ? 'prix-bouton estime' : 'prix-bouton'
+          }
           onClick={() => {
             setValeur(actuel)
             setEdition(true)
@@ -73,7 +95,7 @@ export function PrixPage() {
             <h2>{f.nom}</h2>
             <ul className="liste-prix">
               {liste.map((m) => (
-                <LignePrix key={m.id} id={m.id} nom={m.nom} unite={m.unite} />
+                <LignePrix key={m.id} m={m} />
               ))}
             </ul>
           </section>

@@ -30,7 +30,7 @@ export function SaisieTravail() {
   }
 
   return (
-    <Page titre={`${fiche.icone} ${fiche.nom}`} retour={existant ? retour : `${retour}/categorie`}>
+    <Page titre={fiche.nom} retour={existant ? retour : `${retour}/categorie`}>
       <FormulaireFiche fiche={fiche} entrees={entrees} onChange={setEntrees} pertes={etat.pertes} />
       <ResultatCalcul fiche={fiche} entrees={entrees} pertes={etat.pertes} prix={prixMap} />
       <button className="bouton principal large collant" onClick={valider}>

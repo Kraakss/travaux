@@ -140,7 +140,9 @@ export function construireDevis(resultats: Resultat[], prix: Prix): Devis {
     }
     const m = MATERIAUX_PAR_ID[c.id]
     if (!m) continue
-    const quantite = arrondiSup(c.quantite)
+    // Volumes (sable, gravillons…) : arrondis au pas supérieur (0,5 m³) ; le reste à l'unité entière
+    const pas = m.pas ?? 1
+    const quantite = pas === 1 ? arrondiSup(c.quantite) : arrondiSup(c.quantite / pas) * pas
     if (quantite <= 0) continue
     const pu = centimes(prixDe(c.id, prix) * c.facteur)
     ajouter(m.famille, {

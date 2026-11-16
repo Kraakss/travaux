@@ -176,3 +176,19 @@ input:focus { outline: 3px solid #fdba74; border-color: var(--principal); }
   .total, .total.grand { background: none; color: #000; border: 2px solid #000; }
   .total.grand strong { color: #000; }
 }
+
+/* ---- Ajouts : icônes, sources, prix ---- */
+.carte-lien strong { display: flex; align-items: center; gap: 8px; }
+.tuile .icone { color: var(--principal); }
+.aide { color: var(--discret); font-size: .82rem; margin-top: -4px; }
+.conseil { background: #e0f2fe; color: #075985; padding: 8px 12px; border-radius: 10px; font-size: .92rem; }
+.badge { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: .75rem; font-weight: 700; white-space: nowrap; }
+.badge.ok { background: #dcfce7; color: var(--ok); }
+.badge.orange { background: #ffedd5; color: #c2410c; }
+.prix-bouton.estime { border-color: #fdba74; background: #fff7ed; color: #c2410c; }
+.prix-nom a { color: var(--principal-fonce); }
+.source { display: flex; flex-direction: column; gap: 4px; background: var(--carte); border: 1px solid var(--bord); border-radius: var(--rayon); padding: 12px 14px; list-style: none; }
+.source-tete { display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; flex-wrap: wrap; }
+.source small { color: var(--discret); }
+.liste-estimes { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; font-size: .92rem; }
+.liste-estimes small { color: var(--discret); }

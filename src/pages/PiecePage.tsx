@@ -3,6 +3,7 @@ import { useStore } from '../store'
 import { Page, Introuvable } from '../ui/Page'
 import { devisTravail, resultatTravail, totalPiece } from '../calculs/chantier'
 import { trouverFiche } from '../calculs'
+import { IconeCategorie } from '../components/icones'
 import { fmtEuro, fmtNombre } from '../calculs/format'
 
 export function PiecePage() {
@@ -33,7 +34,7 @@ export function PiecePage() {
             <li key={t.id} className="carte">
               <Link to={`${base}/travail/${t.id}`} className="carte-lien">
                 <strong>
-                  {fiche?.icone} {fiche?.nom ?? 'Travail'}
+                  {fiche && <IconeCategorie nom={fiche.icone} taille={24} />} {fiche?.nom ?? 'Travail'}
                 </strong>
                 <small>
                   {premiereInfo ? `${premiereInfo.label} : ${fmtNombre(premiereInfo.valeur, 2)} ${premiereInfo.unite ?? ''} · ` : ''}
