@@ -62,6 +62,7 @@ export function calculerPeinture(e: EntreesPeinture, pertes: Pertes): Resultat {
 export const fichePeinture: Fiche<EntreesPeinture> = {
   id: 'peinture',
   nom: 'Peinture',
+  groupe: 'sols',
   icone: 'peinture',
   champs: [
     { type: 'nombre', id: 'longueur', label: 'Longueur de la pièce', unite: 'm' },

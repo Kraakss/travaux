@@ -60,6 +60,7 @@ export function calculerDalle(e: EntreesDalle, pertes: Pertes): Resultat {
 export const ficheDalle: Fiche<EntreesDalle> = {
   id: 'dalle-beton',
   nom: 'Dalle béton',
+  groupe: 'maconnerie',
   icone: 'dalle',
   champs: [
     { type: 'nombre', id: 'longueur', label: 'Longueur', unite: 'm' },

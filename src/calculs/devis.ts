@@ -100,14 +100,14 @@ const fmtL = (x: number) => String(Math.round(x * 100) / 100).replace('.', ',')
  * 2) PUIS on arrondit au supérieur (peinture : meilleure combinaison de pots).
  */
 export function construireDevis(resultats: Resultat[], prix: Prix): Devis {
-  const cumul = new Map<string, { id: string; facteur: number; detail?: string; quantite: number }>()
+  const cumul = new Map<string, { id: string; facteur: number; detail?: string; unite?: string; quantite: number }>()
   for (const r of resultats) {
     for (const l of r.lignes) {
       const facteur = l.facteur ?? 1
       const cle = GROUPES_PAR_ID[l.materiauId] ? l.materiauId : `${l.materiauId}|${facteur}`
       const ex = cumul.get(cle)
       if (ex) ex.quantite += l.quantite
-      else cumul.set(cle, { id: l.materiauId, facteur, detail: l.detail, quantite: l.quantite })
+      else cumul.set(cle, { id: l.materiauId, facteur, detail: l.detail, unite: l.unite, quantite: l.quantite })
     }
   }
 
@@ -148,7 +148,7 @@ export function construireDevis(resultats: Resultat[], prix: Prix): Devis {
     ajouter(m.famille, {
       cle,
       nom: c.detail ? `${m.nom} (${c.detail})` : m.nom,
-      unite: c.detail ? 'carton' : m.unite,
+      unite: c.detail ? (c.unite ?? 'carton') : m.unite,
       quantiteExacte: c.quantite,
       quantite,
       prixUnitaire: pu,

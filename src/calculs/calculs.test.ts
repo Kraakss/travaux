@@ -309,7 +309,11 @@ describe('Cohérence des données', () => {
       expect(p, `prix manquant : ${m.id}`).toBeTruthy()
       expect(p.prix).toBeGreaterThan(0)
       if (p.statut === 'releve') {
-        expect(p.sources.length, m.id).toBeGreaterThan(0)
+        // relevé : fiche produit avec URL, ou à défaut prix relevé par l'utilisateur (date + note)
+        if (p.sources.length === 0) {
+          expect((p as { date?: string }).date, m.id).toMatch(/^\d{4}-\d{2}/)
+          expect((p as { note?: string }).note, m.id).toBeTruthy()
+        }
         for (const s of p.sources) {
           expect(s.url).toMatch(/^https:\/\//)
           expect(s.date).toMatch(/^\d{4}-\d{2}-\d{2}$/)
@@ -322,7 +326,7 @@ describe('Cohérence des données', () => {
   })
   it('chaque fiche a une source documentée', () => {
     expect(SOURCES_FORMULES.length).toBeGreaterThan(20)
-    for (const s of SOURCES_FORMULES) expect(['verifie', 'a_confirmer']).toContain(s.statut)
+    for (const s of SOURCES_FORMULES) expect(['verifie', 'fourchette', 'a_confirmer']).toContain(s.statut)
   })
 })
 

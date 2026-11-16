@@ -8,6 +8,7 @@ import { IconePapierPeint } from './IconePapierPeint'
 import { IconeDalle } from './IconeDalle'
 import { IconeParpaings } from './IconeParpaings'
 import { IconeDefaut } from './IconeDefaut'
+import * as N from './IconesNouvelles'
 
 const ICONES: Record<string, ComponentType<PropsIcone>> = {
   plafond: IconePlafond,
@@ -17,6 +18,25 @@ const ICONES: Record<string, ComponentType<PropsIcone>> = {
   'papier-peint': IconePapierPeint,
   dalle: IconeDalle,
   parpaings: IconeParpaings,
+  'doublage-colle': N.IconeDoublageColle,
+  'doublage-ossature': N.IconeDoublageOssature,
+  'carreaux-platre': N.IconeCarreauxPlatre,
+  alveolaire: N.IconeAlveolaire,
+  combles: N.IconeCombles,
+  'sous-chape': N.IconeSousChape,
+  briques: N.IconeBriques,
+  'beton-cellulaire': N.IconeBetonCellulaire,
+  chape: N.IconeChape,
+  melange: N.IconeMelange,
+  'carrelage-mural': N.IconeCarrelageMural,
+  parquet: N.IconeParquet,
+  ragreage: N.IconeRagreage,
+  facade: N.IconeFacade,
+  'terrasse-lames': N.IconeTerrasseLames,
+  'terrasse-dalles': N.IconeTerrasseDalles,
+  toiture: N.IconeToiture,
+  electricite: N.IconeElectricite,
+  plomberie: N.IconePlomberie,
 }
 
 /** Icône d'une catégorie (identifiant `icone` de la fiche). */

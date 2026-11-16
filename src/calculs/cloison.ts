@@ -77,6 +77,7 @@ export function calculerCloison(e: EntreesCloison, pertes: Pertes): Resultat {
 export const ficheCloison: Fiche<EntreesCloison> = {
   id: 'cloison-placo',
   nom: 'Cloison placo',
+  groupe: 'cloisons',
   icone: 'cloison',
   champs: [
     { type: 'nombre', id: 'longueur', label: 'Longueur', unite: 'm' },

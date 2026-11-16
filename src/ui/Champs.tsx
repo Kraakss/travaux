@@ -108,13 +108,13 @@ function ChampOuvertures({ def, value, onChange }: { def: Extract<ChampDef, { ty
   )
 }
 
-function ChampCarreau({ value, onChange }: { value: Carreau; onChange: (v: Carreau) => void }) {
-  const estPreset = (c: Carreau) => PRESETS_CARREAU.some((p) => p.a === c.a && p.b === c.b)
+function ChampCarreau({ value, onChange, presets = PRESETS_CARREAU }: { value: Carreau; onChange: (v: Carreau) => void; presets?: Carreau[] }) {
+  const estPreset = (c: Carreau) => presets.some((p) => p.a === c.a && p.b === c.b)
   const [libre, setLibre] = useState(!estPreset(value))
   return (
     <div>
       <div className="chips">
-        {PRESETS_CARREAU.map((p) => (
+        {presets.map((p) => (
           <button
             key={`${p.a}x${p.b}`}
             type="button"
@@ -148,6 +148,22 @@ function ChampCarreau({ value, onChange }: { value: Carreau; onChange: (v: Carre
   )
 }
 
+/** Choix multiple (cases à cocher en pastilles) : la valeur est une liste séparée par des virgules. */
+function ChampMulti({ options, value, onChange }: { options: { valeur: string; label: string }[]; value: string; onChange: (v: string) => void }) {
+  const coches = (value ?? '').split(',').filter(Boolean)
+  const basculer = (v: string) =>
+    onChange(options.map((o) => o.valeur).filter((x) => (x === v ? !coches.includes(x) : coches.includes(x))).join(','))
+  return (
+    <div className="chips">
+      {options.map((o) => (
+        <button key={o.valeur} type="button" className={coches.includes(o.valeur) ? 'chip actif' : 'chip'} onClick={() => basculer(o.valeur)}>
+          {o.label}
+        </button>
+      ))}
+    </div>
+  )
+}
+
 /** Formulaire généré à partir des champs d'une fiche. */
 export function FormulaireFiche({
   fiche, entrees, onChange, pertes,
@@ -160,83 +176,119 @@ export function FormulaireFiche({
   const set = (id: string, v: Entrees[string]) => onChange({ ...entrees, [id]: v })
   const perteDef = fiche.perteDefaut ? fiche.perteDefaut(entrees, pertes) : null
 
+  const rendre = (c: ChampDef) => {
+    if (c.visible && !c.visible(entrees)) return null
+    const v = entrees[c.id]
+    switch (c.type) {
+      case 'titre':
+        return (
+          <h3 key={c.id} className="sous-titre">
+            {c.label}
+          </h3>
+        )
+      case 'nombre':
+        return (
+          <label key={c.id} className="champ">
+            <span className="etiquette">{c.label}</span>
+            {c.aide && <small className="aide">{c.aide}</small>}
+            <span className="avec-unite">
+              <ChampNombre value={v as number | null} entier={c.entier} onChange={(x) => set(c.id, x)} />
+              {c.unite ? <span>{c.unite}</span> : null}
+            </span>
+          </label>
+        )
+      case 'choix':
+        return (
+          <div key={c.id} className="champ">
+            <span className="etiquette">{c.label}</span>
+            <div className="segments">
+              {c.options.map((o) => (
+                <button
+                  key={o.valeur}
+                  type="button"
+                  className={v === o.valeur ? 'segment actif' : 'segment'}
+                  onClick={() => set(c.id, o.valeur)}
+                >
+                  {o.label}
+                </button>
+              ))}
+            </div>
+          </div>
+        )
+      case 'multi':
+        return (
+          <div key={c.id} className="champ">
+            <span className="etiquette">{c.label}</span>
+            <ChampMulti options={c.options} value={String(v ?? '')} onChange={(x) => set(c.id, x)} />
+          </div>
+        )
+      case 'compteurs':
+        return (
+          <div key={c.id} className="champ">
+            <span className="etiquette">{c.label}</span>
+            <div className="groupe">
+              {c.items.map((it) => (
+                <div key={it.id} className="ouverture">
+                  <div className="nom">{it.label}</div>
+                  <Pas value={Math.floor(Number(entrees[it.id]) || 0)} onChange={(x) => set(it.id, x)} />
+                </div>
+              ))}
+            </div>
+          </div>
+        )
+      case 'oui_non':
+        return (
+          <label key={c.id} className="champ interrupteur">
+            <span className="etiquette">{c.label}</span>
+            <input type="checkbox" checked={Boolean(v)} onChange={(ev) => set(c.id, ev.target.checked)} />
+            <span className="glissiere" aria-hidden="true" />
+          </label>
+        )
+      case 'ouvertures':
+        return (
+          <div key={c.id} className="champ">
+            <span className="etiquette">{c.label}</span>
+            <ChampOuvertures def={c} value={v as Ouvertures} onChange={(x) => set(c.id, x)} />
+          </div>
+        )
+      case 'carreau':
+        return (
+          <div key={c.id} className="champ">
+            <span className="etiquette">{c.label}</span>
+            <ChampCarreau value={v as Carreau} presets={c.presets} onChange={(x) => set(c.id, x)} />
+          </div>
+        )
+    }
+  }
+
+  // Tout ce qui suit le titre « Options » est replié (avec le champ « perte »).
+  const iOptions = fiche.champs.findIndex((c) => c.type === 'titre' && c.label === 'Options')
+  const principaux = iOptions < 0 ? fiche.champs : fiche.champs.slice(0, iOptions)
+  const options = iOptions < 0 ? [] : fiche.champs.slice(iOptions + 1)
+
   return (
     <div className="formulaire">
-      {fiche.champs.map((c) => {
-        if (c.visible && !c.visible(entrees)) return null
-        const v = entrees[c.id]
-        switch (c.type) {
-          case 'titre':
-            return (
-              <h3 key={c.id} className="sous-titre">
-                {c.label}
-              </h3>
-            )
-          case 'nombre':
-            return (
-              <label key={c.id} className="champ">
-                <span className="etiquette">{c.label}</span>
-                {c.aide && <small className="aide">{c.aide}</small>}
+      {principaux.map(rendre)}
+      {(options.length > 0 || perteDef !== null) && (
+        <details className="options">
+          <summary>Options</summary>
+          <div className="formulaire">
+            {options.map(rendre)}
+            {perteDef !== null && (
+              <label className="champ">
+                <span className="etiquette">Perte / marge (laisser vide = {String(perteDef).replace('.', ',')} % par défaut)</span>
                 <span className="avec-unite">
-                  <ChampNombre value={v as number | null} entier={c.entier} onChange={(x) => set(c.id, x)} />
-                  {c.unite ? <span>{c.unite}</span> : null}
+                  <ChampNombre
+                    value={entrees.perte as number | null}
+                    placeholder={String(perteDef).replace('.', ',')}
+                    onChange={(x) => set('perte', x)}
+                  />
+                  <span>%</span>
                 </span>
               </label>
-            )
-          case 'choix':
-            return (
-              <div key={c.id} className="champ">
-                <span className="etiquette">{c.label}</span>
-                <div className="segments">
-                  {c.options.map((o) => (
-                    <button
-                      key={o.valeur}
-                      type="button"
-                      className={v === o.valeur ? 'segment actif' : 'segment'}
-                      onClick={() => set(c.id, o.valeur)}
-                    >
-                      {o.label}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            )
-          case 'oui_non':
-            return (
-              <label key={c.id} className="champ interrupteur">
-                <span className="etiquette">{c.label}</span>
-                <input type="checkbox" checked={Boolean(v)} onChange={(ev) => set(c.id, ev.target.checked)} />
-                <span className="glissiere" aria-hidden="true" />
-              </label>
-            )
-          case 'ouvertures':
-            return (
-              <div key={c.id} className="champ">
-                <span className="etiquette">{c.label}</span>
-                <ChampOuvertures def={c} value={v as Ouvertures} onChange={(x) => set(c.id, x)} />
-              </div>
-            )
-          case 'carreau':
-            return (
-              <div key={c.id} className="champ">
-                <span className="etiquette">{c.label}</span>
-                <ChampCarreau value={v as Carreau} onChange={(x) => set(c.id, x)} />
-              </div>
-            )
-        }
-      })}
-      {perteDef !== null && (
-        <label className="champ">
-          <span className="etiquette">Perte / marge (laisser vide = {String(perteDef).replace('.', ',')} % par défaut)</span>
-          <span className="avec-unite">
-            <ChampNombre
-              value={entrees.perte as number | null}
-              placeholder={String(perteDef).replace('.', ',')}
-              onChange={(x) => set('perte', x)}
-            />
-            <span>%</span>
-          </span>
-        </label>
+            )}
+          </div>
+        </details>
       )}
     </div>
   )

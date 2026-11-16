@@ -52,6 +52,7 @@ export function calculerPlafond(e: EntreesPlafond, pertes: Pertes): Resultat {
 export const fichePlafond: Fiche<EntreesPlafond> = {
   id: 'plafond-placo',
   nom: 'Plafond placo',
+  groupe: 'cloisons',
   icone: 'plafond',
   champs: [
     { type: 'nombre', id: 'longueur', label: 'Longueur', unite: 'm' },

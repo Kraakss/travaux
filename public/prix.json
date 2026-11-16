@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "misAJour": "2026-11-16T16:58:23.383Z",
+  "version": 3,
+  "misAJour": "2026-11-16T18:20:58.846Z",
   "prix": {
     "plaque-standard-250": {
       "prix": 7.95,
@@ -17,10 +17,18 @@
       ]
     },
     "plaque-hydro-250": {
-      "prix": 20.1,
-      "statut": "estime",
+      "prix": 14.97,
+      "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3334160454258",
+          "prix": 14.97,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "plaque-feu-250": {
       "prix": 33.21,
@@ -49,13 +57,13 @@
       "sources": []
     },
     "plaque-hydro-240": {
-      "prix": 19.3,
+      "prix": 14.37,
       "statut": "estime",
       "date": "2026-11-16",
       "sources": []
     },
     "plaque-hydro-300": {
-      "prix": 24.12,
+      "prix": 17.96,
       "statut": "estime",
       "date": "2026-11-16",
       "sources": []
@@ -251,10 +259,18 @@
       ]
     },
     "joint-carrelage": {
-      "prix": 14.9,
-      "statut": "estime",
+      "prix": 12.9,
+      "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/8022452271144/joint-carrelage-fin-blanc-100-interieur-sol-et-mur-5-kg",
+          "prix": 12.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "croisillons": {
       "prix": 1.75,
@@ -412,9 +428,17 @@
     },
     "colle-papier-peint": {
       "prix": 6.7,
-      "statut": "estime",
+      "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3663602711346/colle-pour-papier-peint-intisse-250-g",
+          "prix": 6.7,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "ciment": {
       "prix": 9.3,
@@ -431,7 +455,7 @@
       ]
     },
     "sable": {
-      "prix": 70,
+      "prix": 85,
       "statut": "estime",
       "date": "2026-11-16",
       "sources": []
@@ -477,10 +501,18 @@
       ]
     },
     "bande-peripherique": {
-      "prix": 11.75,
-      "statut": "estime",
+      "prix": 11.95,
+      "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3434550720328/bande-de-desolidarisation-rouleau-de-50-m",
+          "prix": 23.9,
+          "lot": 2,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "herisson": {
       "prix": 45,
@@ -514,12 +546,828 @@
     },
     "mortier": {
       "prix": 4.8,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3538985404843/mortier-bas-carbone-multi-usage-sac-de-25-kg",
+          "prix": 4.8,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "linteau": {
+      "prix": 14.9,
       "statut": "estime",
       "date": "2026-11-16",
       "sources": []
     },
-    "linteau": {
-      "prix": 14.9,
+    "carreau-platre-5": {
+      "prix": 5.79,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3334160190682/carreau-de-platre-l-66-7-x-l-50-cm-x-ep-50-mm",
+          "prix": 5.79,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "carreau-platre-7": {
+      "prix": 6.79,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3334160190668/carreau-de-platre-alveole-l-66-7-x-l-50-cm-x-ep-70-mm",
+          "prix": 6.79,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "carreau-platre-10": {
+      "prix": 9.5,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "carreau-platre-hydro-5": {
+      "prix": 7.69,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3334160190620/carreau-de-platre-hydrofuge-l-66-7-x-l-50-cm-x-ep-50-mm",
+          "prix": 7.69,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "carreau-platre-hydro-7": {
+      "prix": 8.09,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3334160190606",
+          "prix": 8.09,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "carreau-platre-hydro-10": {
+      "prix": 12,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "colle-carreaux-platre": {
+      "prix": 18.5,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "platre-a-enduire": {
+      "prix": 18.9,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3334160456986/platre-a-enduire-sac-de-25-kg",
+          "prix": 18.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "bande-resiliente-m": {
+      "prix": 0.8,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "panneau-alveolaire-50": {
+      "prix": 35.7,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/8435028303802/cloison-alveolaire-l-2-50-x-l-1-20-m-ep-50-mm",
+          "prix": 35.7,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "semelle-bois": {
+      "prix": 4.69,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "rail-bois": {
+      "prix": 2.99,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "clavette-bois": {
+      "prix": 8.69,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "vis-ttpc-35-500": {
+      "prix": 8,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "vis-ttpc-70-200": {
+      "prix": 9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "appui-intermediaire": {
+      "prix": 1.7,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3585501055669/appui-intermediaire-100-mm-50x",
+          "prix": 84.9,
+          "lot": 50,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "doublage-pse-80": {
+      "prix": 50.9,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3334160434830/doublage-plaque-de-platre-polystyrene-th-32-l-2-50-x-l-1-20-m-x-ep-13-80-mm",
+          "prix": 50.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "doublage-pse-100": {
+      "prix": 59.7,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "doublage-pse-120": {
+      "prix": 68,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "doublage-pse-140": {
+      "prix": 77,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "mortier-adhesif": {
+      "prix": 8.89,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3334160432966/mortier-colle-adhesif-en-poudre-25-kg",
+          "prix": 8.89,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "laine-verre-100": {
+      "prix": 30.75,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3596265336420/laine-de-verre-en-rouleau-kraft-pour-murs-32-r-3-15-ep-100-mm-2-70-x-1-20-m",
+          "prix": 30.75,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "laine-verre-120": {
+      "prix": 48.79,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3596265231251/laine-de-verre-120mm-mur-32-r-3-75-2-7m-x-1-2m-rouleau-kraft",
+          "prix": 48.79,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "laine-verre-140": {
+      "prix": 43,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "laine-roche-souffler": {
+      "prix": 57.2,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "isolant-pse-mm": {
+      "prix": 0.152,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "isolant-pu-mm": {
+      "prix": 0.36,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "brique-20": {
+      "prix": 5.5,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "brique-30": {
+      "prix": 9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "brique-36_5": {
+      "prix": 16,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "mortier-joint-mince": {
+      "prix": 15,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "beton-cell-15": {
+      "prix": 7.2,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "beton-cell-17_5": {
+      "prix": 8.3,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "beton-cell-20": {
+      "prix": 9.49,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/4065181019704/bloc-de-beton-cellulaire-62-5x25x20cm",
+          "prix": 9.49,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "beton-cell-22_5": {
+      "prix": 10.7,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "beton-cell-25": {
+      "prix": 11.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "beton-cell-30": {
+      "prix": 14.2,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "colle-beton-cellulaire": {
+      "prix": 13.9,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/catalogue/colle-beton-cellulaire-et-pave-de-verre-interieur-et-exterieur-sac-de-25kg/prod4879/",
+          "prix": 13.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "sable-sac": {
+      "prix": 3.99,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/catalogue/sable-a-batir-pour-les-travaux-de-maconnerie-granulo-04mm-en-sac-de-35kg/prod58939/",
+          "prix": 3.99,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "primaire-litre": {
+      "prix": 3.5,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "spec": {
+      "prix": 39.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "bande-etancheite": {
+      "prix": 3,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "stratifie-m2": {
+      "prix": 8.99,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "sous-couche-parquet": {
+      "prix": 30.5,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/5063022038449/sous-couche-en-mousse-xps-avec-pare-vapeur-3-mm-10-2-m",
+          "prix": 30.5,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "plinthe-mdf": {
+      "prix": 3.2,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/5059340803326/plinthe-mdf-brut-reversible-9x69x2400-mm",
+          "prix": 3.2,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "barre-seuil": {
+      "prix": 9.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "enduit-monocouche": {
+      "prix": 11.9,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3388751982408/enduit-monocouche-couleur-pierre-clair-sac-de25kg",
+          "prix": 11.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "profile-depart": {
+      "prix": 1.5,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "baguette-angle": {
+      "prix": 1.5,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "lame-pin-21": {
+      "prix": 7,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "lame-bois-27": {
+      "prix": 6.7,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/5059340053295/lame-de-terrasse-en-pin-lemhi-c4-vert-l-240-x-l-14-4-cm-ep-27-mm",
+          "prix": 6.7,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "lame-composite": {
+      "prix": 29.61,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "lambourde-45x70": {
+      "prix": 7.9,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3460581143041/lambourde-en-bois-classe-4-3000-x-70-x-45-mm",
+          "prix": 7.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "plot-reglable": {
+      "prix": 2.49,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3663602426875/boite-de-10-plots-pour-lambourdes-h-35-a-85-mm",
+          "prix": 24.9,
+          "lot": 10,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "vis-terrasse-450": {
+      "prix": 29.9,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/4048962551174/seau-de-450-vis-terrasse-5x60-en-inox-a2",
+          "prix": 29.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "dalle-gres-60x60": {
+      "prix": 11.45,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "tuile-mecanique": {
+      "prix": 1.3,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "tuile-grand-moule": {
+      "prix": 1.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "tuile-plate": {
+      "prix": 0.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "liteau-27x40": {
+      "prix": 2.99,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3663602862932/latte-liteau-epicea-traite-classe-2-27-x-40mm-long-4m",
+          "prix": 2.99,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "contre-liteau": {
+      "prix": 4.5,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "ecran-hpv": {
+      "prix": 119,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/catalogue/ecran-sous-toiture-et-pare-pluie-sopecran-et-hpv-r2-50-x-15-m/prod87886/",
+          "prix": 119,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "faitiere": {
+      "prix": 7.1,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "closoir-ventile": {
+      "prix": 24.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "gouttiere-profile": {
+      "prix": 20.5,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/catalogue/profil-de-gouttiere-demi-ronde-pvc-gris-anthracite-developpe-25-4-metres/prod88390/",
+          "prix": 20.5,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "crochet-gouttiere": {
+      "prix": 1.79,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "jonction-gouttiere": {
+      "prix": 5,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "naissance-gouttiere": {
+      "prix": 8,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "fond-gouttiere": {
+      "prix": 4.5,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "tube-descente-80": {
+      "prix": 8.19,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "collier-descente": {
+      "prix": 3.5,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "coude-80": {
+      "prix": 4.39,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "prise-2pt": {
+      "prix": 3.99,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "interrupteur": {
+      "prix": 3.99,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "boite-dcl": {
+      "prix": 9.63,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "boite-encastrement": {
+      "prix": 0.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "cable-3g25-100": {
+      "prix": 125,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "cable-3g15-100": {
+      "prix": 94.9,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/8009929051720/cable-electrique-r2v-3g1-5-mm-noir-100-m-1",
+          "prix": 94.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "cable-3g6-m": {
+      "prix": 3.8,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "gaine-icta-100": {
+      "prix": 21.9,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3661728070521/gaine-nue-icta-100-m-o-20-mm",
+          "prix": 21.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "prise-rj45": {
+      "prix": 6.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "cable-cat6-100": {
+      "prix": 49.9,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "disjoncteur": {
+      "prix": 6.5,
+      "statut": "estime",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "tableau-3-rangees": {
+      "prix": 179,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3545412909949/tableau-pre-equipe-t3-3r-39-modules-blanc",
+          "prix": 179,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "per-16": {
+      "prix": 19.9,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/catalogue/couronne-tube-per-nu-rouge-16-25-metres/prod57154/",
+          "prix": 19.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "per-12": {
+      "prix": 15.9,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/catalogue/couronne-tube-per-nu-bleu-12-25-metres/prod79421/",
+          "prix": 15.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
+    },
+    "robinet-arret": {
+      "prix": 7.5,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "raccord-per": {
+      "prix": 2.35,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "tube-pvc-32": {
+      "prix": 2.99,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "tube-pvc-40": {
+      "prix": 3.99,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "tube-pvc-100": {
+      "prix": 7.39,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "coude-pvc-32": {
+      "prix": 0.79,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "coude-pvc-40": {
+      "prix": 1.19,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "coude-pvc-100": {
+      "prix": 3.79,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "siphon-bonde": {
+      "prix": 7.19,
+      "statut": "releve",
+      "date": "2026-11-16",
+      "sources": []
+    },
+    "colle-pvc": {
+      "prix": 6.9,
       "statut": "estime",
       "date": "2026-11-16",
       "sources": []

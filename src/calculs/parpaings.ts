@@ -38,6 +38,7 @@ export function calculerParpaings(e: EntreesParpaings, pertes: Pertes): Resultat
 export const ficheParpaings: Fiche<EntreesParpaings> = {
   id: 'mur-parpaings',
   nom: 'Mur en parpaings',
+  groupe: 'maconnerie',
   icone: 'parpaings',
   champs: [
     { type: 'nombre', id: 'longueur', label: 'Longueur', unite: 'm' },

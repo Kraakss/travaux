@@ -16,6 +16,12 @@ function LignePrix({ m }: { m: Materiau }) {
   const actuel = prixMap[id] ?? m.prix
   const source = m.sources[0]
   const jour = (iso: string) => new Date(iso).toLocaleDateString('fr-FR')
+  // « relevé le 16/11/2026 » (avec fiche produit) ou « relevé en novembre 2026 » (date au mois seulement)
+  const releve = (() => {
+    const d = source?.date ?? m.date ?? ''
+    if (/^d{4}-d{2}$/.test(d)) return `relevé en ${new Date(`${d}-01`).toLocaleDateString('fr-FR', { month: 'long', year: 'numeric' })}`
+    return d ? `relevé le ${jour(d)}` : 'relevé'
+  })()
 
   const terminer = () => {
     if (valeur !== null && valeur !== actuel) setPrix(id, valeur)
@@ -35,7 +41,7 @@ function LignePrix({ m }: { m: Materiau }) {
           ) : m.statut === 'estime' ? (
             <span className="badge orange">estimé</span>
           ) : (
-            <>relevé le {jour(source?.date ?? '')}</>
+            <>{releve}</>
           )}
           {!modifie && source && (
             <>

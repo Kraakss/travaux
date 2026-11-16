@@ -45,6 +45,7 @@ export function calculerPapierPeint(e: EntreesPapierPeint): Resultat {
 export const fichePapierPeint: Fiche<EntreesPapierPeint> = {
   id: 'papier-peint',
   nom: 'Papier peint',
+  groupe: 'sols',
   icone: 'papier-peint',
   champs: [
     { type: 'nombre', id: 'longueur', label: 'Longueur de la pièce', unite: 'm' },

@@ -28,6 +28,8 @@ export interface LigneQte {
   facteur?: number
   /** Précision affichée après le nom (ex. « carton de 1,44 m² ») */
   detail?: string
+  /** Nom de l'unité de vente quand une précision est donnée (« carton » par défaut) */
+  unite?: string
 }
 
 export interface Info {
@@ -87,12 +89,18 @@ export type ChampDef =
   | (ChampBase & { type: 'choix'; options: { valeur: string; label: string }[] })
   | (ChampBase & { type: 'oui_non' })
   | (ChampBase & { type: 'ouvertures'; portesSeulement?: boolean })
-  | (ChampBase & { type: 'carreau' })
+  | (ChampBase & { type: 'carreau'; presets?: Carreau[] })
   | (ChampBase & { type: 'titre' })
+  /** Choix multiple : la valeur est la liste des choix cochés, séparés par des virgules */
+  | (ChampBase & { type: 'multi'; options: { valeur: string; label: string }[] })
+  /** Plusieurs compteurs (+ / −) : chaque compteur est enregistré sous son propre id */
+  | (ChampBase & { type: 'compteurs'; items: { id: string; label: string }[] })
 
 export interface Fiche<E = any> {
   id: string
   nom: string
+  /** Famille du menu « Ajouter un travail » (voir GROUPES_FICHES dans index.ts) */
+  groupe: string
   /** Identifiant de l'icône (voir src/components/icones) */
   icone: string
   /** Champs affichés dans le formulaire, dans l'ordre */

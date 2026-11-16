@@ -185,6 +185,7 @@ input:focus { outline: 3px solid #fdba74; border-color: var(--principal); }
 .badge { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: .75rem; font-weight: 700; white-space: nowrap; }
 .badge.ok { background: #dcfce7; color: var(--ok); }
 .badge.orange { background: #ffedd5; color: #c2410c; }
+.badge.bleu { background: #e0f2fe; color: #075985; }
 .prix-bouton.estime { border-color: #fdba74; background: #fff7ed; color: #c2410c; }
 .prix-nom a { color: var(--principal-fonce); }
 .source { display: flex; flex-direction: column; gap: 4px; background: var(--carte); border: 1px solid var(--bord); border-radius: var(--rayon); padding: 12px 14px; list-style: none; }
@@ -192,3 +193,18 @@ input:focus { outline: 3px solid #fdba74; border-color: var(--principal); }
 .source small { color: var(--discret); }
 .liste-estimes { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; font-size: .92rem; }
 .liste-estimes small { color: var(--discret); }
+
+/* ----- Menu « Ajouter un travail » : familles repliables ----- */
+.famille-menu { background: var(--carte); border: 1px solid var(--bord); border-radius: var(--rayon); padding: 4px 12px; margin-bottom: 10px; }
+.famille-menu > summary { cursor: pointer; font-weight: 700; padding: 12px 0; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+.famille-menu > summary::-webkit-details-marker { display: none; }
+.famille-menu > summary::after { content: '▾'; color: var(--discret); margin-left: 8px; }
+.famille-menu[open] > summary::after { content: '▴'; }
+.famille-menu .nb { margin-left: auto; color: var(--discret); font-weight: 500; font-size: .9rem; }
+.famille-menu .tuiles { padding-bottom: 12px; }
+
+/* ----- Section « Options » repliée dans les fiches ----- */
+details.options { border-top: 1px dashed var(--bord); padding-top: 4px; }
+details.options > summary { cursor: pointer; font-weight: 600; color: var(--discret); padding: 10px 0; }
+details.options[open] > summary { color: var(--texte); }
+details.options .formulaire { border: 0; padding: 0; background: none; }
