@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "misAJour": "2026-11-16T18:20:58.846Z",
+  "version": 4,
+  "misAJour": "2026-11-16T19:17:46.477Z",
   "prix": {
     "plaque-standard-250": {
       "prix": 7.95,
@@ -51,10 +51,18 @@
       "sources": []
     },
     "plaque-standard-300": {
-      "prix": 9.54,
-      "statut": "estime",
+      "prix": 10.76,
+      "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3334160532772/plaque-de-platre-ba13-bords-amincis-l-3-x-l-1-2-m-x-ep-13-mm",
+          "prix": 10.76,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "plaque-hydro-240": {
       "prix": 14.37,
@@ -404,9 +412,18 @@
     },
     "sous-couche-10l": {
       "prix": 38.5,
-      "statut": "estime",
+      "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/5059340141817/peinture-sous-couche-murs-et-plafonds-interieure-blanc-10-l",
+          "prix": 38.5,
+          "lot": 1,
+          "date": "2026-11-16",
+          "manuel": true
+        }
+      ]
     },
     "ruban-masquage": {
       "prix": 1.97,
@@ -540,9 +557,18 @@
     },
     "parpaing-20": {
       "prix": 0.89,
-      "statut": "estime",
+      "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3760229750045/parpaing-creux-nf-ep-20-cm-l-20-cm-l-50-cm-3",
+          "prix": 0.89,
+          "lot": 1,
+          "date": "2026-11-16",
+          "manuel": true
+        }
+      ]
     },
     "mortier": {
       "prix": 4.8,
@@ -691,10 +717,18 @@
       "sources": []
     },
     "vis-ttpc-35-500": {
-      "prix": 8,
-      "statut": "estime",
+      "prix": 10.9,
+      "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/catalogue/boite-de-500-vis-plaque-de-platre-ttpc-8-x-35-mm/prod76801/",
+          "prix": 10.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "vis-ttpc-70-200": {
       "prix": 9,
@@ -734,7 +768,15 @@
       "prix": 59.7,
       "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3334160434861/plaque-de-doublage-th-32-250-x-120-cm-ep-12-5-mm-100-mm-vendue-a-la-plaque-planodis",
+          "prix": 59.7,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "doublage-pse-120": {
       "prix": 68,
@@ -791,22 +833,47 @@
       ]
     },
     "laine-verre-140": {
-      "prix": 43,
-      "statut": "estime",
+      "prix": 63.1,
+      "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3596265239004/laine-de-verre-140-mm-mur-32-r-4-35-2-7m-x-1-2m-rouleau-kraft-isover",
+          "prix": 63.1,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "laine-roche-souffler": {
-      "prix": 57.2,
+      "prix": 57.9,
       "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/catalogue/laine-de-roche-a-souffler-20-kg/prod76864/",
+          "prix": 57.9,
+          "lot": 1,
+          "date": "2026-11-16",
+          "manuel": true
+        }
+      ]
     },
     "isolant-pse-mm": {
-      "prix": 0.152,
+      "prix": 0.18,
       "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/catalogue/panneau-polystyrene-expanse-12x06m-ep-20mm/prod40484/",
+          "prix": 3.9,
+          "lot": 21.6,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "isolant-pu-mm": {
       "prix": 0.36,
@@ -839,10 +906,18 @@
       "sources": []
     },
     "beton-cell-15": {
-      "prix": 7.2,
-      "statut": "estime",
+      "prix": 6.9,
+      "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/4065181015577/bloc-de-beton-cellulaire-62-5x25x15cm",
+          "prix": 6.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "beton-cell-17_5": {
       "prix": 8.3,
@@ -929,10 +1004,18 @@
       "sources": []
     },
     "stratifie-m2": {
-      "prix": 8.99,
+      "prix": 9.69,
       "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/5063022628077/stratifie-treviso-8-2-mm-ac4",
+          "prix": 18.12,
+          "lot": 1.87,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "sous-couche-parquet": {
       "prix": 30.5,
@@ -1018,7 +1101,16 @@
       "prix": 29.61,
       "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Leroy Merlin",
+          "url": "https://www.leroymerlin.fr/produits/lame-terrasse-bois-composite-alveolaire-dual-brun-rouge-ep-25mm-larg-14cm-long-360cm-82910435.html",
+          "prix": 29.61,
+          "lot": 1,
+          "date": "2026-11-16",
+          "manuel": true
+        }
+      ]
     },
     "lambourde-45x70": {
       "prix": 7.9,
@@ -1063,10 +1155,18 @@
       ]
     },
     "dalle-gres-60x60": {
-      "prix": 11.45,
+      "prix": 14.32,
       "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/8013259004806/dalle-exterieur-gres-cerame-emaille-gris-nativa-quartz-60-x-60-cm",
+          "prix": 14.32,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "tuile-mecanique": {
       "prix": 1.3,
@@ -1171,10 +1271,18 @@
       "sources": []
     },
     "tube-descente-80": {
-      "prix": 8.19,
+      "prix": 8.89,
       "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/8023926000024/tube-de-descente-gouttieres-en-pvc-o-80-mm-l-2-m-colori-sable",
+          "prix": 8.89,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "collier-descente": {
       "prix": 3.5,
@@ -1183,16 +1291,32 @@
       "sources": []
     },
     "coude-80": {
-      "prix": 4.39,
+      "prix": 4.69,
       "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/8019966005877/coude-en-pvc-dev-25-cm-gris",
+          "prix": 4.69,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "prise-2pt": {
-      "prix": 3.99,
+      "prix": 4.49,
       "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3414973063073/prise-de-courant-encastrable-neptune-2p-t-16a-blanc-87x87-cm",
+          "prix": 4.49,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "interrupteur": {
       "prix": 3.99,
@@ -1213,10 +1337,18 @@
       "sources": []
     },
     "cable-3g25-100": {
-      "prix": 125,
+      "prix": 139,
       "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/8009929052109/cable-electrique-r2v-3g2-5-mm-noir-100-m",
+          "prix": 139,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "cable-3g15-100": {
       "prix": 94.9,
@@ -1253,16 +1385,32 @@
       ]
     },
     "prise-rj45": {
-      "prix": 6.9,
-      "statut": "estime",
+      "prix": 13.9,
+      "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/catalogue/prise-ethernet-rj45-ovalis-blanc-grade-3-cat-6-stp-reseaux-vdi/prod90449/",
+          "prix": 13.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "cable-cat6-100": {
-      "prix": 49.9,
-      "statut": "estime",
+      "prix": 82.9,
+      "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3170230062608/cable-ethernet-categorie-6-f-utp-blinde-l-100-m",
+          "prix": 82.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "disjoncteur": {
       "prix": 6.5,
@@ -1313,10 +1461,18 @@
       ]
     },
     "robinet-arret": {
-      "prix": 7.5,
+      "prix": 9.9,
       "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3540736951124/mini-robinet-a-sphere-femelle-1-4-de-tour-de-filetage-entree-sortie-12-17-mm",
+          "prix": 9.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "raccord-per": {
       "prix": 2.35,
@@ -1325,10 +1481,18 @@
       "sources": []
     },
     "tube-pvc-32": {
-      "prix": 2.99,
+      "prix": 3.39,
       "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3396040120325",
+          "prix": 3.39,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     },
     "tube-pvc-40": {
       "prix": 3.99,
@@ -1367,10 +1531,18 @@
       "sources": []
     },
     "colle-pvc": {
-      "prix": 6.9,
-      "statut": "estime",
+      "prix": 15.9,
+      "statut": "releve",
       "date": "2026-11-16",
-      "sources": []
+      "sources": [
+        {
+          "enseigne": "Brico Dépôt",
+          "url": "https://www.bricodepot.fr/p/3184410217948/colle-raccords-et-tuyaux-pvc-pot-de-250ml-avec-pinceau-integre",
+          "prix": 15.9,
+          "lot": 1,
+          "date": "2026-11-16"
+        }
+      ]
     }
   },
   "echecs": []

@@ -42,6 +42,8 @@ export interface SourcePrix {
   prix: number
   lot?: number
   date: string
+  /** Lien de référence seulement : le script de mise à jour ne le lit pas */
+  manuel?: boolean
 }
 
 export interface Materiau extends MateriauDef {

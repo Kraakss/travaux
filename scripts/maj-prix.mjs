@@ -4,6 +4,7 @@
 // Règles :
 //  - si une page est illisible ou bloquée (403, 429, captcha…), on garde l'ancien prix
 //    et on note l'échec : on ne contourne JAMAIS un blocage ;
+//  - les sources marquées « manuel » dans prix-sources.json sont des liens de référence : jamais lues ;
 //  - un prix qui change de façon suspecte (moins de 40 % ou plus de 250 % de l'ancien) est refusé ;
 //  - option --sources : met aussi à jour les prix de src/data/prix-sources.json
 //    (à utiliser à la main après vérification, pas dans l'automatisation).
@@ -98,6 +99,11 @@ async function principal() {
       // dernier prix connu pour cette source : prix.json précédent, sinon prix-sources.json
       const precedent = anciensPrix?.sources?.[i]
       const base = { ...s, prix: precedent?.url === s.url ? precedent.prix : s.prix, date: precedent?.url === s.url ? precedent.date : s.date }
+      // lien de référence seulement (page non lisible par le script, ou enseigne qui refuse les robots) : on garde le prix
+      if (s.manuel) {
+        srcs.push(base)
+        continue
+      }
       if (!cachePages.has(s.url)) {
         cachePages.set(s.url, await lirePage(s.url))
         await pause(PAUSE_MS)
