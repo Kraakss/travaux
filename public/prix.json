@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "misAJour": "2026-11-16T16:54:26.424Z",
+  "misAJour": "2026-11-16T16:56:54.933Z",
   "prix": {
     "plaque-standard-250": {
       "prix": 7.95,
@@ -525,5 +525,111 @@
       "sources": []
     }
   },
-  "echecs": []
+  "echecs": [
+    {
+      "id": "plaque-standard-250",
+      "url": "https://www.bricodepot.fr/p/3334160411374/plaque-de-platre-ba13-250-cm-x-120-cm-epaisseur-1-25-cm-bords-amincis",
+      "raison": "accès refusé (HTTP 403)"
+    },
+    {
+      "id": "plaque-feu-250",
+      "url": "https://www.bricodepot.fr/catalogue/plaque-de-platre-ba-13-resistante-au-feu-nf-l-250-x-l-120-m-x-ep-13-mm/prod56917/",
+      "raison": "accès refusé (HTTP 403)"
+    },
+    {
+      "id": "suspente",
+      "url": "https://www.bricodepot.fr/catalogue/boite-de-100-suspentes-80-mm/prod57553/",
+      "raison": "accès refusé (HTTP 403)"
+    },
+    {
+      "id": "cheville",
+      "url": "https://www.bricodepot.fr/p/5059340428789/cheville-a-expansion-en-acier-m4-46mm-pour-plaque-de-platre-pack-de-10",
+      "raison": "accès refusé (HTTP 403)"
+    },
+    {
+      "id": "rail-rive",
+      "url": "https://www.bricodepot.fr/catalogue/corniere-cr2-en-acier-galvanise-type-l3023-l-3m/prod11928/",
+      "raison": "accès refusé (HTTP 403)"
+    },
+    {
+      "id": "montant-m48",
+      "url": "https://www.bricodepot.fr/p/3700387903013/montant-m48-3-m-nf",
+      "raison": "accès refusé (HTTP 403)"
+    },
+    {
+      "id": "rail-r48",
+      "url": "https://www.bricodepot.fr/p/3454976951120/lot-de-10-rails-r48-3-m-nf",
+      "raison": "accès refusé (HTTP 403)"
+    },
+    {
+      "id": "vis-25",
+      "url": "https://www.bricodepot.fr/p/3496250214699/vis-plaque-de-platre-ttpc-25-8-x-25-mm-500-pieces",
+      "raison": "accès refusé (HTTP 403)"
+    },
+    {
+      "id": "bande-joint",
+      "url": "https://www.bricodepot.fr/p/5059340820910/bande-a-joints-papier-rouleau-150-m-x-50-mm",
+      "raison": "accès refusé (HTTP 403)"
+    },
+    {
+      "id": "enduit-poudre",
+      "url": "https://www.bricodepot.fr/catalogue/enduit-a-joint-de-rebouchage-et-de-lissage-en-poudre-sachet-25-kg/prod93165/",
+      "raison": "accès refusé (HTTP 403)"
+    },
+    {
+      "id": "isolant-rouleau",
+      "url": "https://www.bricodepot.fr/p/3596265180214/laine-de-verre-100-mm-comble-perdu-40-r-2-5-10-x-1-20-m-rouleau-kraft",
+      "raison": "accès refusé (HTTP 403)"
+    },
+    {
+      "id": "carrelage-m2",
+      "url": "https://www.bricodepot.fr/p/8016609922546/carrelage-de-sol-interieur-en-gres-cerame-emaille-carrara-blanc-60-x-60-cm",
+      "raison": "accès refusé (HTTP 403)"
+    },
+    {
+      "id": "colle-carrelage",
+      "url": "https://www.bricodepot.fr/catalogue/mortier-colle-gris-pour-carrelage-25kg/prod11556/",
+      "raison": "accès refusé (HTTP 403)"
+    },
+    {
+      "id": "croisillons",
+      "url": "https://www.bricodepot.fr/catalogue/lot-de-250-croisillons-en-t-2mm/prod78286/",
+      "raison": "accès refusé (HTTP 403)"
+    },
+    {
+      "id": "primaire-accroche",
+      "url": "https://www.bricodepot.fr/catalogue/primaire-universel-eco-responsable-bidon-5l/prod95610/",
+      "raison": "accès refusé (HTTP 403)"
+    },
+    {
+      "id": "ragreage",
+      "url": "https://www.bricodepot.fr/p/3388752041159/ragreage-de-sol-autolissant-gris-25-kg-interieur-epaisseur-1-a-10-mm",
+      "raison": "accès refusé (HTTP 403)"
+    },
+    {
+      "id": "peinture-murs-10l",
+      "url": "https://www.bricodepot.fr/p/3661521150659/peinture-blanc-mat-murs-et-plafonds-grands-travaux-pot-10l",
+      "raison": "accès refusé (HTTP 403)"
+    },
+    {
+      "id": "peinture-plafond-10l",
+      "url": "https://www.bricodepot.fr/p/3661521150659/peinture-blanc-mat-murs-et-plafonds-grands-travaux-pot-10l",
+      "raison": "accès refusé (HTTP 403)"
+    },
+    {
+      "id": "ciment",
+      "url": "https://www.bricodepot.fr/p/3596700102672/ciment-gris-allcem-sac-35-kg",
+      "raison": "accès refusé (HTTP 403)"
+    },
+    {
+      "id": "gravillons",
+      "url": "https://www.bricodepot.fr/catalogue/sac-big-bag-de-gravier-pour-confection-de-beton-1-m3/prod57408/",
+      "raison": "accès refusé (HTTP 403)"
+    },
+    {
+      "id": "film-polyane",
+      "url": "https://www.bricodepot.fr/p/3585150018169/film-sous-dallage-0-15-mm-pour-dalle-et-chape-beton-6-x-25-m",
+      "raison": "accès refusé (HTTP 403)"
+    }
+  ]
 }
