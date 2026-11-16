@@ -25,7 +25,9 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           # on ne commite que si au moins un PRIX a changé (pas les dates ni la liste d'échecs)
-          ancien=          nouveau=          if [ "" = "" ]; then
+          ancien=$(git show HEAD:public/prix.json | jq -c '.prix | map_values(.prix)')
+          nouveau=$(jq -c '.prix | map_values(.prix)' public/prix.json)
+          if [ "$ancien" = "$nouveau" ]; then
             echo "Aucun prix n'a changé."
             exit 0
           fi
